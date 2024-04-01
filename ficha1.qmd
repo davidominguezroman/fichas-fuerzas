@@ -1,0 +1,182 @@
+---
+title: "Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook"
+---
+
+Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Una **fuerza** es toda causa que pueda deformar un objeto o modificar su estado de reposo o movimiento. La unidad de fuerza en el Sistema Internacional es el Newton (N).
+
+Los **efectos** de una fuerza son:
+
+-   Poder **mover un cuerpo** que estaba parado.
+-   Poder **parar un cuerpo** que se estaba moviendo.
+-   Poder **modificar la velocidad** de un objeto.
+-   Poder producir **deformaciones**.
+
+Las fuerzas pueden actuar de distintas **formas**:
+
+-   **Por contacto**: por ejemplo, al empujar una silla o golpear un balón.
+
+-   **A distancia**: no es necesario que haya un contacto físico entre los cuerpos.
+
+    -   Gravitatoria.
+    -   Magnética.
+    -   Eléctrica.
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**1.-** Una \_\_\_\_\_\_ es todo aquello que puede \_\_\_\_\_\_\_\_\_ un objeto y/o \_\_\_\_\_\_\_\_ su estado de reposo o movimiento. Puede \_\_\_\_\_\_\_ un objeto parado, \_\_\_\_\_\_ un objeto en \_\_\_\_\_\_\_, modificar su \_\_\_\_\_\_\_\_ o producir \_\_\_\_\_\_\_\_\_\_.
+
+|           |          |               |
+|:---------:|:--------:|:-------------:|
+|   parar   | deformar | deformaciones |
+|   mover   |  fuerza  |   modificar   |
+| velocidad |          |               |
+
+<br>
+
+**2.-** Indica si las siguientes fuerzas actúan **por contacto** o **a distancia**:
+
+-   Alexia Putellas lanza un penalti:
+
+-   Fernando Alonso acelera al comienzo de la carrera:
+
+-   Un imán en la nevera:
+
+-   Un electrón gira alrededor de un núcleo atómico:
+
+-   La Luna orbita la Tierra:
+
+-   Un imán atrae una barra de hierro:
+
+-   Un barco se detiene:
+
+-   Un avión ha despegado y coge velocidad:
+
+-   Un avión asciende:
+
+-   Al frotar una regla contra lana, esta atrae trocitos de papel:
+
+<br>
+
+**3.-** Cita **tres acciones** de la vida cotidiana en la que se produzca:
+
+-   Una deformación de un cuerpo:
+
+    <br>
+
+-   El movimiento de un cuerpo que estaba en reposo:
+
+    <br>
+
+-   El cambio de movimiento de un cuerpo (acelerar, desacelerar o cambiar la dirección):
+
+    <br>
+
+**4.-** ¿ De qué **forma** actúa la fuerza de atracción entre un protón y un electrón?
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Los **cuerpos** pueden **clasificarse** en:
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+:--------------------------------------------------------------------:+
+| -   **Rígidos**: **no se deforman** ante la acción de una fuerza. Por ejemplo: la pata de una silla.                                                 | ![](D_NQ_NP_770113-MLA46490092791_062021-W.webp){width="28%"}        |
++------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
+| -   **Plásticos**: **se deforman** bajo la acción de una fuerza, pero **no vuelven a su estado natural** cuando deja de actuar. Por ejemplo, el pan. | ![](Little_girl_holding_plasticine._(49810941302).webp){width="138"} |
++------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
+| -   **Elásticos**: son **capaces de recuperar su forma inicial** cuando una fuerza los ha deformado. Por ejemplo: una goma elástica.                 | ![](goma-el-stica_PDT01256.webp){width="124"}                        |
++------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**5.-** **Clasifica** los siguientes objetos en rígidos, plásticos o elásticos:
+
+-   Una bola de billar:
+
+-   Una goma de borrar:
+
+-   Plastilina:
+
+-   Un muelle:
+
+-   Una esponja:
+
+-   Un vaso:
+
+-   El barro:
+
+<br>
+
+**6.-** En la industria pueden llegar a usarse muelles tan fuertes que ni 100 elefantes pueden llegar a moverlos. Entonces.... ¿Son rígidos? **Justifica tu respuesta**. Di si son rígidos, plásticos o elásticos y por qué.
+
+<br>
+
+**7.-** Una goma de borrar, si se aprieta con las manos recupera su forma, pero si se ejerce mucha fuerza queda deformada para siempre. ¿Por qué crees que pasa esto?
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Si cogemos un muelle cualquiera y suspendemos una masa de uno de sus extremos (la llamaremos peso), dejando el otro fijo, este se deforma y se alarga una cantidad $\Delta x$. Si suspendemos otra masa igual, el muelle se alargará el doble de lo que lo había hecho. El alargamiento de un muelle es directamente proporcional a la fuerza que se ha ejercido para alargarlo:
+
+$$
+F = K \cdot \Delta x,
+$$
+
+siendo
+
+$$
+\Delta x = x_{final} - x_{inicial}.
+$$
+
+$F$ es la fuerza que se ejerce y su unidad es el Newton (N), $K$ es la constante elástica del muelle y sus unidades son Newton por metro (N/m) y $x$ el alargamiento, cuyas unidades son metros (m). Un muelle con una $K$ más alta se alargará menos que otro con una constante elástica más baja.
+
+A esta ecuación la llamamos ***Ley de Hooke***.
+
+![](Screen%20Shot%202017-06-01%20at%2012.46.01%20PM.png){fig-align="center" width="571"}
+
+![](Untitled%201.png){fig-align="center" width="286"}
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**8.-** Un muelle de constante elástica $K=20N/m$ tiene suspendida una masa $m=100g$. ¿Cuál será su alargamiento $\Delta x$? Utiliza unidades en el **Sistema Internacional (metros, Newton, kilogramo, etc.)**. Aceleración de la gravedad: $g=9,8 m/s²$.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**9.-** ¿Un muelle con una longitud inicial $x_{inicial}=20cm$ se alarga hasta $x_{final}=40cm$ aplicando una fuerza $F=200N$. Calcula la constante elástica del muelle, $K$. Utiliza siempre unidades del **Sistema Internacional**.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
