@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fuerzas: Fichas – 1&nbsp; Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook</title>
+<title>Fuerzas: Fichas – 2&nbsp; El movimiento: tipos de movimiento, velocidad y aceleración</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./ficha2.html" rel="next">
-<link href="./intro.html" rel="prev">
+<link href="./summary.html" rel="next">
+<link href="./ficha1.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -110,7 +110,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ficha1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ficha2.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El movimiento: tipos de movimiento, velocidad y aceleración</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -149,13 +149,13 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ficha1.html" class="sidebar-item-text sidebar-link active">
+  <a href="./ficha1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ficha2.html" class="sidebar-item-text sidebar-link">
+  <a href="./ficha2.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El movimiento: tipos de movimiento, velocidad y aceleración</span></span></a>
   </div>
 </li>
@@ -184,7 +184,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El movimiento: tipos de movimiento, velocidad y aceleración</span></h1>
 </div>
 
 
@@ -204,157 +204,100 @@ window.Quarto = {
 <p>Nombre:______________________________________________________________________________</p>
 <hr>
 <hr>
-<p>Una <strong>fuerza</strong> es toda causa que pueda deformar un objeto o modificar su estado de reposo o movimiento. La unidad de fuerza en el Sistema Internacional es el Newton (N).</p>
-<p>Los <strong>efectos</strong> de una fuerza son:</p>
+<p>Siempre que tengamos que definir un movimiento, es decir, indicar cómo es, necesitamos definir un sistema de referencia. <strong>El sistema de referencia</strong> es un <strong>punto del espacio</strong>, del cual diremos que <strong>su posición es</strong> <span class="math inline">\(x=0\)</span>. A partir de ese punto diremos hacia dónde consideramos que la posición es positiva. Por ejemplo, si digo que desde mi pecho hacia adelante es positivo, todo lo que esté delante de mí tendrá una posición positiva, y todo lo que esté detrás la tendrá negativa.</p>
+<p>Definir el sistema de referencia es <strong>LO PRIMERO QUE HAY QUE HACER</strong> para definir un movimiento.</p>
+<p>Antes de hablar de movimiento, necesitamos aclarar dos conceptos fundamentales:</p>
 <ul>
-<li>Poder <strong>mover un cuerpo</strong> que estaba parado.</li>
-<li>Poder <strong>parar un cuerpo</strong> que se estaba moviendo.</li>
-<li>Poder <strong>modificar la velocidad</strong> de un objeto.</li>
-<li>Poder producir <strong>deformaciones</strong>.</li>
+<li><p><strong>Móvil</strong>: es un cuerpo que se mueve. Ambos términos se pueden utilizar.</p></li>
+<li><p><strong>Posición</strong>: es el <strong>punto</strong> en el que se encuentra un móvil <strong>en un momento determinado.</strong> La posición inicial, <span class="math inline">\(x_0\)</span>, y la posición final, <span class="math inline">\(x_f\)</span>, marcan el principio y final de la trayectoria.</p></li>
+<li><p><strong>Trayectoria</strong>: es el <strong>camino</strong> que recorre el móvil durante el movimiento.</p></li>
+<li><p><strong>Desplazamiento</strong>: <strong>longitud de la línea recta</strong> que une las posiciones inicial y final.</p></li>
+<li><p><strong>Espacio recorrido</strong>: se denomina con la letra <span class="math inline">\(s\)</span> y es la <strong>longitud de la trayectoria.</strong></p></li>
 </ul>
-<p>Las fuerzas pueden actuar de distintas <strong>formas</strong>:</p>
-<ul>
-<li><p><strong>Por contacto</strong>: por ejemplo, al empujar una silla o golpear un balón.</p></li>
-<li><p><strong>A distancia</strong>: no es necesario que haya un contacto físico entre los cuerpos.</p>
-<ul>
-<li>Gravitatoria.</li>
-<li>Magnética.</li>
-<li>Eléctrica.</li>
-</ul></li>
-</ul>
-<p><br></p>
+<p>Un <strong>movimiento</strong> es el <strong>cambio en la posición de un cuerpo a lo largo del tiempo</strong>, respecto de un sistema de referencia.</p>
 <hr>
 <hr>
-<p><strong>1.-</strong> Una ______ es todo aquello que puede _________ un objeto y/o ________ su estado de reposo o movimiento. Puede _______ un objeto parado, ______ un objeto en _______, modificar su ________ o producir __________.</p>
-<table class="table">
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">parar</td>
-<td style="text-align: center;">deformar</td>
-<td style="text-align: center;">deformaciones</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">mover</td>
-<td style="text-align: center;">fuerza</td>
-<td style="text-align: center;">modificar</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">velocidad</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<p><strong>2.-</strong> Indica si las siguientes fuerzas actúan <strong>por contacto</strong> o <strong>a distancia</strong>:</p>
+<p><strong>1.-</strong> ¿Cómo observarías el movimiento de un autobús y el de la acera en estos casos?</p>
 <ul>
-<li><p>Alexia Putellas lanza un penalti:</p></li>
-<li><p>Fernando Alonso acelera al comienzo de la carrera:</p></li>
-<li><p>Un imán en la nevera:</p></li>
-<li><p>Un electrón gira alrededor de un núcleo atómico:</p></li>
-<li><p>La Luna orbita la Tierra:</p></li>
-<li><p>Un imán atrae una barra de hierro:</p></li>
-<li><p>Un barco se detiene:</p></li>
-<li><p>Un avión ha despegado y coge velocidad:</p></li>
-<li><p>Un avión asciende:</p></li>
-<li><p>Al frotar una regla contra lana, esta atrae trocitos de papel:</p></li>
+<li>Estás parado en la acera:</li>
 </ul>
 <p><br></p>
-<p><strong>3.-</strong> Cita <strong>tres acciones</strong> de la vida cotidiana en la que se produzca:</p>
 <ul>
-<li><p>Una deformación de un cuerpo:</p>
-<p><br></p></li>
-<li><p>El movimiento de un cuerpo que estaba en reposo:</p>
-<p><br></p></li>
-<li><p>El cambio de movimiento de un cuerpo (acelerar, desacelerar o cambiar la dirección):</p>
-<p><br></p></li>
-</ul>
-<p><strong>4.-</strong> ¿ De qué <strong>forma</strong> actúa la fuerza de atracción entre un protón y un electrón?</p>
-<p><br></p>
-<hr>
-<hr>
-<p>Los <strong>cuerpos</strong> pueden <strong>clasificarse</strong> en:</p>
-<table class="table">
-<colgroup>
-<col style="width: 68%">
-<col style="width: 31%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><strong>Rígidos</strong>: <strong>no se deforman</strong> ante la acción de una fuerza. Por ejemplo: la pata de una silla.</li>
-</ul></td>
-<td style="text-align: center;"><img src="D_NQ_NP_770113-MLA46490092791_062021-W.webp" class="img-fluid" style="width:28.0%"></td>
-</tr>
-<tr class="even">
-<td><ul>
-<li><strong>Plásticos</strong>: <strong>se deforman</strong> bajo la acción de una fuerza, pero <strong>no vuelven a su estado natural</strong> cuando deja de actuar. Por ejemplo, el pan.</li>
-</ul></td>
-<td style="text-align: center;"><img src="Little_girl_holding_plasticine._(49810941302).webp" class="img-fluid" width="138"></td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li><strong>Elásticos</strong>: son <strong>capaces de recuperar su forma inicial</strong> cuando una fuerza los ha deformado. Por ejemplo: una goma elástica.</li>
-</ul></td>
-<td style="text-align: center;"><img src="goma-el-stica_PDT01256.webp" class="img-fluid" width="124"></td>
-</tr>
-</tbody>
-</table>
-<hr>
-<hr>
-<p><strong>5.-</strong> <strong>Clasifica</strong> los siguientes objetos en rígidos, plásticos o elásticos:</p>
-<ul>
-<li><p>Una bola de billar:</p></li>
-<li><p>Una goma de borrar:</p></li>
-<li><p>Plastilina:</p></li>
-<li><p>Un muelle:</p></li>
-<li><p>Una esponja:</p></li>
-<li><p>Un vaso:</p></li>
-<li><p>El barro:</p></li>
+<li>Estás subido en el autobús:</li>
 </ul>
 <p><br></p>
-<p><strong>6.-</strong> En la industria pueden llegar a usarse muelles tan fuertes que ni 100 elefantes pueden llegar a moverlos. Entonces…. ¿Son rígidos? <strong>Justifica tu respuesta</strong>. Di si son rígidos, plásticos o elásticos y por qué.</p>
+<ul>
+<li>Vas en un coche que va a la misma velocidad que el autobús:</li>
+</ul>
 <p><br></p>
-<p><strong>7.-</strong> Una goma de borrar, si se aprieta con las manos recupera su forma, pero si se ejerce mucha fuerza queda deformada para siempre. ¿Por qué crees que pasa esto?</p>
+<ul>
+<li>Vas en un coche que va a la misma velocidad que el autobús, pero en sentido contrario:</li>
+</ul>
 <p><br></p>
 <hr>
 <hr>
-<p>Si cogemos un muelle cualquiera y suspendemos una masa de uno de sus extremos (la llamaremos peso), dejando el otro fijo, este se deforma y se alarga una cantidad <span class="math inline">\(\Delta x\)</span>. Si suspendemos otra masa igual, el muelle se alargará el doble de lo que lo había hecho. El alargamiento de un muelle es directamente proporcional a la fuerza que se ha ejercido para alargarlo:</p>
+<p>Vamos a distinguir 2 tipos de movimientos:</p>
+<ul>
+<li><p><strong>Movimiento rectilíneo uniforme (MRU)</strong>: la <strong>velocidad</strong> se mantiene <strong>constante</strong> en todo el movimiento.</p></li>
+<li><p><strong>Movimiento rectilíneo uniformemente acelerado (MRUA)</strong>: durante este movimiento la <strong>velocidad cambia</strong> debido a la <strong>aparición de una aceleración.</strong></p></li>
+</ul>
+<p>Hemos hablado de velocidad y aceleración, pero… ¿qué son? ¿Cómo se definen?</p>
+<p>La <strong>velocidad</strong>, <span class="math inline">\(v\)</span>, es el espacio recorrido por el móvil, <span class="math inline">\(s\)</span>, dividido por el tiempo, <span class="math inline">\(t\)</span>, que le ha llevado recorrerlo:</p>
 <p><span class="math display">\[
-F = K \cdot \Delta x,
+v=\frac{s}{t}.
 \]</span></p>
-<p>siendo</p>
+<p>Las <strong>unidades de la velocidad</strong>, en el <strong>Sistema Internacional</strong>, son los metros por segundo, <span class="math inline">\(\text{m}/\text{s}\)</span>. Otras unidades utilizadas son los kilómetros por hora, <span class="math inline">\(\text{km}/\text{h}\)</span>. Normalmente, un móvil no se desplaza a velocidad constante. Por ello, definimos <strong>velocidad instantánea</strong> como la velocidad que lleva en un <strong>instante muy pequeño</strong> de tiempo y <strong>velocidad media</strong> a el desplazamiento del móvil entre el tiempo empleado:</p>
 <p><span class="math display">\[
-\Delta x = x_{final} - x_{inicial}.
+v_{media} = \frac{x_{final} - x_{inicial}}{t} = \frac{x_f - x_0}{t} = \frac{x_f - x_i}{t}
+\]</span>Cualquiera de las formas de escribirla es correcta. Hay que tener en cuenta que, como <strong>los movimientos que vamos a estudiar siempre los vamos a tratar como si fueran en línea recta</strong>, <span class="math inline">\(s = x_f - x_i\)</span>. Si el movimiento no fuera en línea recta, esto no se podría hacer (<u>revisar la definición de trayectoria y desplazamiento</u>).</p>
+<p><strong>Si</strong> el móvil <strong>no cambia su velocidad</strong>, <strong>ambas velocidades</strong>, la media y la instantánea <strong>serán iguales.</strong></p>
+<p>La <strong>aceleración</strong>, <span class="math inline">\(a\)</span>, es el cambio de velocidad de un móvil en un tiempo determinado:</p>
+<p><span class="math display">\[
+a=\frac{v_{final} - v_{inicial}}{t} = \frac{v_f - v_0}{t} = \frac{v_f - v_i}{t}.
 \]</span></p>
-<p><span class="math inline">\(F\)</span> es la fuerza que se ejerce y su unidad es el Newton (N), <span class="math inline">\(K\)</span> es la constante elástica del muelle y sus unidades son Newton por metro (N/m) y <span class="math inline">\(x\)</span> el alargamiento, cuyas unidades son metros (m). Un muelle con una <span class="math inline">\(K\)</span> más alta se alargará menos que otro con una constante elástica más baja.</p>
-<p>A esta ecuación la llamamos <strong><em>Ley de Hooke</em></strong>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="Screen Shot 2017-06-01 at 12.46.01 PM.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="571"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="Untitled 1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="286"></p>
-</figure>
-</div>
-<p>Para medir fuerzas y saber el peso de cualquier objeto, se utiliza un <strong>dinamómetro</strong>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./pictures/dinamometro.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="286"></p>
-</figure>
-</div>
+<p>Cualquiera de las formas de indicar las dos velocidades será correcta. Las <strong>unidades de la aceleración</strong> en el <strong>Sistema Internacional</strong> son los metros por segundo al cuadrado, <span class="math inline">\(\text{m}/\text{s}²\)</span>.</p>
 <hr>
-<p><strong>8.-</strong> Un muelle de constante elástica <span class="math inline">\(K=20N/m\)</span> tiene suspendida una masa <span class="math inline">\(m=100g\)</span>, la cual ejerce una fuerza sobre el muelle <span class="math inline">\(\text{F}=981 \text{ N}\)</span>. ¿Cuál será su alargamiento <span class="math inline">\(\Delta x\)</span>? ¿Si su longitud inicial era <span class="math inline">\(x_{inicial}=10 \text{ cm}\)</span>, cuál será la final? Utiliza unidades en el <strong>Sistema Internacional (metros, Newton, kilogramo, etc.)</strong>.</p>
+<hr>
+<p><strong>2.-</strong> Fernando alonso se encuentra en la posición número 10 en el gran premio de Australia de 2024. De que el semáforo se apaga y empieza la carrera hasta que acaba, <strong>recorre</strong> <span class="math inline">\(306,124\)</span><strong>km</strong>. Si <strong>ha tardado</strong> <span class="math inline">\(2\)</span><strong>h</strong> <span class="math inline">\(40\)</span><strong>min</strong> <span class="math inline">\(28\)</span><strong>s</strong> en realizar las 58 vueltas,</p>
+<p>a) ¿Cuál ha sido su velocidad media? Utiliza unidades del <strong>SI</strong>.</p>
+<p><br></p>
+<p><br></p>
+<p>b) ¿ Su velocidad ha sido la misma durante toda la carrerra?</p>
+<p><br></p>
+<p><br></p>
+<p>c) Expresa la velocidad media en <span class="math inline">\(\text{km}/\text{h}\)</span></p>
+<p><br></p>
+<p><br></p>
+<p>d) Si <strong>en los primeros</strong> <span class="math inline">\(10\text{ s}\)</span> pasó de estar detenido a alcanzar una <strong>velocidad de</strong> <span class="math inline">\(200\text{ km}/\text{h}\)</span>, ¿Cuál fue su aceleración?</p>
+<p><br> <br> <br></p>
+<p><strong>3.-</strong> Señala qué afirmaciones son ciertas y cuales son falsas. Indica brevemente por qué.</p>
+<ul>
+<li>El desplazamiento y el espacio recorrido siempre coinciden:</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<ul>
+<li>El sistema de referencia y la posición son lo mismo:</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<ul>
+<li>La velocidad media y la velocidad instantánea son siempre iguales:</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><strong>4.-</strong> ¿Qué es <strong>lo primero</strong> que hay que hacer para definir un movimiento?</p>
+<p><br></p>
+<p><strong>5.-</strong> El velocímetro de un coche marca una velocidad <span class="math inline">\(v_0 = 36 \text{km}/\text{h}\)</span>. Un minuto más tarde marca <span class="math inline">\(v_f = 54 \text{km}/\text{h}\)</span>. ¿Cuál ha sido su aceleración?</p>
 <p><br></p>
 <p><br></p>
 <p><br></p>
+<p><strong>6.-</strong> La distancia entre Burgos y Madrid es de <span class="math inline">\(254\)</span>km. Si un autobús ha realizado ese trayecto en <span class="math inline">\(3\)</span>h,</p>
+<p>a) ¿cuál ha sido su velocidad media? Usa unidades del SI.</p>
 <p><br></p>
 <p><br></p>
-<p><strong>9.-</strong> ¿Un muelle con una longitud inicial <span class="math inline">\(x_{inicial}=20cm\)</span> se alarga hasta <span class="math inline">\(x_{final}=40cm\)</span> aplicando una fuerza <span class="math inline">\(F=200N\)</span>. Calcula la constante elástica del muelle, <span class="math inline">\(K\)</span>. Utiliza siempre unidades del <strong>Sistema Internacional</strong>.</p>
 <p><br></p>
-<p><br></p>
+<p>b) Si en el camino realiza alguna parada, ¿crees que la velocidad media será la misma? ¿Por qué?</p>
 <p><br></p>
 <p><br></p>
 <p><br></p>
@@ -784,13 +727,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
+      <a href="./ficha1.html" class="pagination-link" aria-label="Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ficha2.html" class="pagination-link" aria-label="El movimiento: tipos de movimiento, velocidad y aceleración">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El movimiento: tipos de movimiento, velocidad y aceleración</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

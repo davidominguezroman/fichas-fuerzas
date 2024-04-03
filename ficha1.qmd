@@ -153,11 +153,13 @@ A esta ecuación la llamamos ***Ley de Hooke***.
 
 ![](Untitled%201.png){fig-align="center" width="286"}
 
-------------------------------------------------------------------------
+Para medir fuerzas y saber el peso de cualquier objeto, se utiliza un **dinamómetro**.
+
+![](./pictures/dinamometro.png){fig-align="center" width="286"}
 
 ------------------------------------------------------------------------
 
-**8.-** Un muelle de constante elástica $K=20N/m$ tiene suspendida una masa $m=100g$. ¿Cuál será su alargamiento $\Delta x$? Utiliza unidades en el **Sistema Internacional (metros, Newton, kilogramo, etc.)**. Aceleración de la gravedad: $g=9,8 m/s²$.
+**8.-** Un muelle de constante elástica $K=20N/m$ tiene suspendida una masa $m=100g$, la cual ejerce una fuerza sobre el muelle $\text{F}=981 \text{ N}$. ¿Cuál será su alargamiento $\Delta x$? ¿Si su longitud inicial era $x_{inicial}=10 \text{ cm}$, cuál será la final? Utiliza unidades en el **Sistema Internacional (metros, Newton, kilogramo, etc.)**.
 
 <br>
 

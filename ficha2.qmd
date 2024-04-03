@@ -1,0 +1,161 @@
+---
+title: "El movimiento: tipos de movimiento, velocidad y aceleración"
+---
+
+Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Siempre que tengamos que definir un movimiento, es decir, indicar cómo es, necesitamos definir un sistema de referencia. **El sistema de referencia** es un **punto del espacio**, del cual diremos que **su posición es** $x=0$. A partir de ese punto diremos hacia dónde consideramos que la posición es positiva. Por ejemplo, si digo que desde mi pecho hacia adelante es positivo, todo lo que esté delante de mí tendrá una posición positiva, y todo lo que esté detrás la tendrá negativa.
+
+Definir el sistema de referencia es **LO PRIMERO QUE HAY QUE HACER** para definir un movimiento.
+
+Antes de hablar de movimiento, necesitamos aclarar dos conceptos fundamentales:
+
+-   **Móvil**: es un cuerpo que se mueve. Ambos términos se pueden utilizar.
+
+-   **Posición**: es el **punto** en el que se encuentra un móvil **en un momento determinado.** La posición inicial, $x_0$, y la posición final, $x_f$, marcan el principio y final de la trayectoria.
+
+-   **Trayectoria**: es el **camino** que recorre el móvil durante el movimiento.
+
+-   **Desplazamiento**: **longitud de la línea recta** que une las posiciones inicial y final.
+
+-   **Espacio recorrido**: se denomina con la letra $s$ y es la **longitud de la trayectoria.**
+
+Un **movimiento** es el **cambio en la posición de un cuerpo a lo largo del tiempo**, respecto de un sistema de referencia.
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**1.-** ¿Cómo observarías el movimiento de un autobús y el de la acera en estos casos?
+
+-   Estás parado en la acera:
+
+<br>
+
+-   Estás subido en el autobús:
+
+<br>
+
+-   Vas en un coche que va a la misma velocidad que el autobús:
+
+<br>
+
+-   Vas en un coche que va a la misma velocidad que el autobús, pero en sentido contrario:
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Vamos a distinguir 2 tipos de movimientos:
+
+-   **Movimiento rectilíneo uniforme (MRU)**: la **velocidad** se mantiene **constante** en todo el movimiento.
+
+-   **Movimiento rectilíneo uniformemente acelerado (MRUA)**: durante este movimiento la **velocidad cambia** debido a la **aparición de una aceleración.**
+
+Hemos hablado de velocidad y aceleración, pero... ¿qué son? ¿Cómo se definen?
+
+La **velocidad**, $v$, es el espacio recorrido por el móvil, $s$, dividido por el tiempo, $t$, que le ha llevado recorrerlo:
+
+$$
+v=\frac{s}{t}.
+$$
+
+Las **unidades de la velocidad**, en el **Sistema Internacional**, son los metros por segundo, $\text{m}/\text{s}$. Otras unidades utilizadas son los kilómetros por hora, $\text{km}/\text{h}$. Normalmente, un móvil no se desplaza a velocidad constante. Por ello, definimos **velocidad instantánea** como la velocidad que lleva en un **instante muy pequeño** de tiempo y **velocidad media** a el desplazamiento del móvil entre el tiempo empleado:
+
+$$
+v_{media} = \frac{x_{final} - x_{inicial}}{t} = \frac{x_f - x_0}{t} = \frac{x_f - x_i}{t}
+$$Cualquiera de las formas de escribirla es correcta. Hay que tener en cuenta que, como **los movimientos que vamos a estudiar siempre los vamos a tratar como si fueran en línea recta**, $s = x_f - x_i$. Si el movimiento no fuera en línea recta, esto no se podría hacer ([revisar la definición de trayectoria y desplazamiento]{.underline}).
+
+**Si** el móvil **no cambia su velocidad**, **ambas velocidades**, la media y la instantánea **serán iguales.**
+
+La **aceleración**, $a$, es el cambio de velocidad de un móvil en un tiempo determinado:
+
+$$
+a=\frac{v_{final} - v_{inicial}}{t} = \frac{v_f - v_0}{t} = \frac{v_f - v_i}{t}.
+$$
+
+Cualquiera de las formas de indicar las dos velocidades será correcta. Las **unidades de la aceleración** en el **Sistema Internacional** son los metros por segundo al cuadrado, $\text{m}/\text{s}²$.
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**2.-** Fernando alonso se encuentra en la posición número 10 en el gran premio de Australia de 2024. De que el semáforo se apaga y empieza la carrera hasta que acaba, **recorre** $306,124$**km**. Si **ha tardado** $2$**h** $40$**min** $28$**s** en realizar las 58 vueltas,
+
+a\) ¿Cuál ha sido su velocidad media? Utiliza unidades del **SI**.
+
+<br>
+
+<br>
+
+b\) ¿ Su velocidad ha sido la misma durante toda la carrerra?
+
+<br>
+
+<br>
+
+c\) Expresa la velocidad media en $\text{km}/\text{h}$
+
+<br>
+
+<br>
+
+d\) Si **en los primeros** $10\text{ s}$ pasó de estar detenido a alcanzar una **velocidad de** $200\text{ km}/\text{h}$, ¿Cuál fue su aceleración?
+
+<br> <br> <br>
+
+**3.-** Señala qué afirmaciones son ciertas y cuales son falsas. Indica brevemente por qué.
+
+-   El desplazamiento y el espacio recorrido siempre coinciden:
+
+<br>
+
+<br>
+
+-   El sistema de referencia y la posición son lo mismo:
+
+<br>
+
+<br>
+
+-   La velocidad media y la velocidad instantánea son siempre iguales:
+
+<br>
+
+<br>
+
+**4.-** ¿Qué es **lo primero** que hay que hacer para definir un movimiento?
+
+<br>
+
+**5.-** El velocímetro de un coche marca una velocidad $v_0 = 36 \text{km}/\text{h}$. Un minuto más tarde marca $v_f = 54 \text{km}/\text{h}$. ¿Cuál ha sido su aceleración?
+
+<br>
+
+<br>
+
+<br>
+
+**6.-** La distancia entre Burgos y Madrid es de $254$km. Si un autobús ha realizado ese trayecto en $3$h,
+
+a\) ¿cuál ha sido su velocidad media? Usa unidades del SI.
+
+<br>
+
+<br>
+
+<br>
+
+b\) Si en el camino realiza alguna parada, ¿crees que la velocidad media será la misma? ¿Por qué?
+
+<br>
+
+<br>
+
+<br>
