@@ -4,19 +4,39 @@
     "href": "index.html",
     "title": "Fuerzas: Fichas",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Introducción\nEsta página ha sido creada para albergar las diferentes fichas con ejercicios y teoría, así como animaciones para que investiguen y se manejen con los contenidos, que doy a un grupo de alumnos de 2º de la ESO, como parte de mi periodo de prácticas en un instituto.",
     "crumbs": [
-      "Preface"
+      "Introducción"
     ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "Introduction",
+    "title": "Lista de animaciones",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Visualización de cómo se suman y restan fuerzas",
     "crumbs": [
-      "Introduction"
+      "Lista de animaciones"
+    ]
+  },
+  {
+    "objectID": "intro.html#visualización-del-comportamiento-de-un-muelle",
+    "href": "intro.html#visualización-del-comportamiento-de-un-muelle",
+    "title": "Lista de animaciones",
+    "section": "Visualización del comportamiento de un muelle",
+    "text": "Visualización del comportamiento de un muelle",
+    "crumbs": [
+      "Lista de animaciones"
+    ]
+  },
+  {
+    "objectID": "intro.html#velocidad-y-aceleración",
+    "href": "intro.html#velocidad-y-aceleración",
+    "title": "Lista de animaciones",
+    "section": "Velocidad y aceleración",
+    "text": "Velocidad y aceleración",
+    "crumbs": [
+      "Lista de animaciones"
     ]
   },
   {
@@ -47,16 +67,6 @@
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
     ]
   }
 ]

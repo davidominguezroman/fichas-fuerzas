@@ -1,5 +1,3 @@
-# Preface {.unnumbered}
+# Introducción {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Esta página ha sido creada para albergar las diferentes fichas con ejercicios y teoría, así como animaciones para que investiguen y se manejen con los contenidos, que doy a un grupo de alumnos de 2º de la ESO, como parte de mi periodo de prácticas en un instituto.
