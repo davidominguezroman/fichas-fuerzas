@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -161,8 +164,20 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./ficha3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ficha4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Palancas, Rozamiento y Leyes de Newton</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -328,21 +343,21 @@ F = K \cdot \Delta x,
 \Delta x = x_{final} - x_{inicial}.
 \]</span></p>
 <p><span class="math inline">\(F\)</span> es la fuerza que se ejerce y su unidad es el Newton (N), <span class="math inline">\(K\)</span> es la constante elástica del muelle y sus unidades son Newton por metro (N/m) y <span class="math inline">\(x\)</span> el alargamiento, cuyas unidades son metros (m). Un muelle con una <span class="math inline">\(K\)</span> más alta se alargará menos que otro con una constante elástica más baja.</p>
-<p>A esta ecuación la llamamos <strong><em>Ley de Hooke</em></strong>.</p>
+<p>A esta ecuación la llamamos <strong><em>Ley de Hooke</em></strong> y fue enunciada por <strong><em>Robert Hooke</em></strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Screen Shot 2017-06-01 at 12.46.01 PM.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="571"></p>
+<p><a href="Screen Shot 2017-06-01 at 12.46.01 PM.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="Screen Shot 2017-06-01 at 12.46.01 PM.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="571"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Untitled 1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="286"></p>
+<p><a href="Untitled 1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="Untitled 1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="286"></a></p>
 </figure>
 </div>
 <p>Para medir fuerzas y saber el peso de cualquier objeto, se utiliza un <strong>dinamómetro</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="./pictures/dinamometro.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="286"></p>
+<p><a href="./pictures/dinamometro.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="./pictures/dinamometro.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="286"></a></p>
 </figure>
 </div>
 <hr>
@@ -795,6 +810,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

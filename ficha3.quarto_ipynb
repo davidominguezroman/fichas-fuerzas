@@ -1,0 +1,74 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "Nombre:\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n",
+        "\n",
+        "------------------------------------------------------------------------\n",
+        "\n",
+        "------------------------------------------------------------------------\n",
+        "\n",
+        "En física es fundamental poder representar movimientos, posiciones, variaciones, etc., para poder entender cómo funciona todo. Primero, vamos a hablar sobre tablas. Las tablas me permiten ordenar los parámetros que yo controlo y escribir las medidas que realizo después. Por ejemplo, si cada segundo quiero medir la posición de un objeto, escribo primero el tiempo que aparece en el cronómetro y luego apunto la posición del objeto:\n",
+        "\n",
+        "|          |     |     |     |     |     |\n",
+        "|:--------:|:---:|:---:|:---:|:---:|:---:|\n",
+        "| **t(s)** |  0  |  1  |  2  |  3  |  4  |\n",
+        "| **s(m)** | 10  | 18  | 26  | 34  | 42  |\n",
+        "\n",
+        "Es importante que aquello que vayamos a poner en el eje horizontal sea lo primero de la tabla. Al dibujar la gráfica quedaría así:\n"
+      ],
+      "id": "288783c6"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "import ipywidgets as widgets\n",
+        "from IPython.display import display\n",
+        "\n",
+        "# Valores del tiempo y posición\n",
+        "tiempo = [0, 1, 2, 3, 4]\n",
+        "posicion = [10, 18, 26, 34, 42]\n",
+        "\n",
+        "# Función para actualizar la gráfica\n",
+        "def actualizar_grafica(tiempo):\n",
+        "    plt.figure(figsize=(8, 5))\n",
+        "    plt.plot(tiempo, posicion, marker='o')\n",
+        "    plt.xlabel('Tiempo (s)')\n",
+        "    plt.ylabel('Posición (m)')\n",
+        "    plt.title('Posición en función del tiempo')\n",
+        "    plt.grid(True)\n",
+        "    plt.show()\n",
+        "\n",
+        "# Widget deslizante para seleccionar el tiempo\n",
+        "slider_tiempo = widgets.IntSlider(value=0, min=0, max=4, step=1, description='Tiempo (s)')\n",
+        "\n",
+        "# Enlazar el widget con la función de actualización\n",
+        "widgets.interactive(update_graph, tiempo=slider_tiempo)"
+      ],
+      "id": "e07eb27b",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/usr/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

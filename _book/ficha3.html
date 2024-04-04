@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fuerzas: Fichas – 5&nbsp; Summary</title>
+<title>Fuerzas: Fichas – 3&nbsp; Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
-<link href="./ficha4.html" rel="prev">
+<link href="./ficha4.html" rel="next">
+<link href="./ficha2.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -69,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -81,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./summary.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ficha3.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -132,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ficha3.html" class="sidebar-item-text sidebar-link">
+  <a href="./ficha3.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas</span></span></a>
   </div>
 </li>
@@ -144,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link active">
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
@@ -167,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas</span></h1>
 </div>
 
 
@@ -184,7 +216,240 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In summary, this book has no content whatsoever.</p>
+<p>Nombre:______________________________________________________________________________</p>
+<hr>
+<hr>
+<p>En física <strong>es fundamental</strong> poder representar movimientos, posiciones, variaciones, etc., para poder entender cómo funciona todo. Primero, vamos a hablar sobre tablas. <strong>Las tablas me permiten ordenar los parámetros que yo controlo</strong> y escribir las medidas que realizo después. Por ejemplo, si cada segundo quiero medir la posición de un objeto, escribo primero el tiempo que aparece en el cronómetro y luego apunto la posición del objeto:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>t/s</strong></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>s/m</strong></td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">42</td>
+</tr>
+</tbody>
+</table>
+<p>Es <strong>importante que aquello que vayamos a poner en el eje horizontal sea lo primero de la tabla</strong>. Al dibujar la gráfica quedaría así:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="ficha3_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="ficha3_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<p>A la hora de interpretar gráficas en las que se represente la posición de un cuerpo en función del tiempo (gráficas posición tiempo o gráficas s-t), tenemos que fijarlos en <strong>dos cosas fundamentales</strong>:</p>
+<ul>
+<li>¿Es una línea? Si la respuesta es sí, entonces estamos ante un MRU.</li>
+<li>¿La pendiente es positiva, negativa o cero? Si la pendiente es positiva, la posición aumentará con el tiempo, y si es negativa disminuirá. Si la pendiente es cero, el cuerpo siempre estará en la misma posición, así que su velocidad será cero.</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="ficha3_files/figure-html/unnamed-chunk-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="ficha3_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="1152"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Los <strong>casos</strong> en los que las representaciones <strong>no sean líneas rectas no los vamos a ver</strong>.</p>
+<hr>
+<hr>
+<p><strong>1.-</strong> Las posiciones de un móvil vienen dadas por la siguiente tabla de datos. Haz la representación gráfica escribiendo también el nombre en los ejes. ¿Cómo es el movimiento?</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><strong>t/s</strong></td>
+<td>0</td>
+<td>2</td>
+<td>4</td>
+<td>6</td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td><strong>s/m</strong></td>
+<td>10</td>
+<td>15</td>
+<td>20</td>
+<td>25</td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="ficha3_files/figure-html/unnamed-chunk-3-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="ficha3_files/figure-html/unnamed-chunk-3-3.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>2.-</strong> Un autobús con destino a Logroño sale de Santo Domingo de la Calzada con una velocidad de <span class="math inline">\(100 \text{ km}/\text{h}\)</span>. La distancia entre Santo Domingo de la Calzada y Logroño es de <span class="math inline">\(46,4\text{ km}\)</span>. <strong>Calcula el tiempo que tarda en llegar en minutos</strong> y dibuja la gráfica representando la <strong>posición en km y el tiempo en minutos</strong>. Calcula las posiciones cada 10 minutos y así será más fácil. <strong>¿Cómo es el movimiento?</strong></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><strong>t/min</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>s/km</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="ficha3_files/figure-html/unnamed-chunk-4-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="ficha3_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<hr>
+<p>Con las gráficas velocidad-tiempo (v-t) tenemos una situación parecida. Tenemos que fijarnos en dos cosas:</p>
+<ul>
+<li><p>¿Es una línea recta? Si lo es, entonces estamos en un MRU o un MRUA. No veremos ningún caso en el que no sean rectas, pero existen.</p></li>
+<li><p>¿La pendiente es positiva, negativa o cero? Si la <strong>pendiente es positiva</strong>, el móvil cada vez tendrá una <strong>velocidad más alta</strong> y <strong>si es negativa</strong>, cada vez tendrá una <strong>velocidad más baja</strong>. <strong>En los dos casos</strong> estaremos ante un <strong>MRUA</strong>. Si la <strong>pendiente es cero</strong>, la velocidad no cambia y estaremos ante un <strong>MRU</strong>.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="ficha3_files/figure-html/unnamed-chunk-5-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="ficha3_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="1152"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<hr>
+<p><strong>1.-</strong> Se han registrado las diferentes velocidades de un coche durante <span class="math inline">\(10\text{s}\)</span>:</p>
+<table class="table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>t(s)</strong></td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td><strong>v(m/s)</strong></td>
+<td>0</td>
+<td>3</td>
+<td>6</td>
+<td>9</td>
+<td>12</td>
+<td>15</td>
+<td>18</td>
+<td>21</td>
+<td>24</td>
+<td>27</td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+<p>Dibuja la gráfica v-t <strong>escribiendo los nombres de los ejes y sus unidades</strong>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="ficha3_files/figure-html/unnamed-chunk-6-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="ficha3_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>¿Cómo es el movimiento??</strong> <br></p>
+<p><strong>2.-</strong> Marc Márquez se encuentra en el circuito de Portimao haciendo unas pruebas con su nueva moto. En <span class="math inline">\(3\text{s}\)</span> pasa de <span class="math inline">\(0\)</span> a <span class="math inline">\(118,8\text{km}/\text{h}\)</span>. <strong>Calcula la aceleración en</strong> <span class="math inline">\(\text{m}/\text{s}²\)</span> (recuerda pasar la velocidad a m/s), <strong>rellena la tabla</strong> con los valores de la velocidad entre <span class="math inline">\(t=0\text{s}\)</span> y <span class="math inline">\(t=5\text{s}\)</span> y <strong>dibuja la gráfica</strong>:</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><strong>t (s)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>v (m/s)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="ficha3_files/figure-html/unnamed-chunk-7-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="ficha3_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 
@@ -611,17 +876,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./ficha4.html" class="pagination-link" aria-label="Palancas, Rozamiento y Leyes de Newton">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Palancas, Rozamiento y Leyes de Newton</span></span>
+      <a href="./ficha2.html" class="pagination-link" aria-label="El movimiento: tipos de movimiento, velocidad y aceleración">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El movimiento: tipos de movimiento, velocidad y aceleración</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ficha4.html" class="pagination-link" aria-label="Palancas, Rozamiento y Leyes de Newton">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Palancas, Rozamiento y Leyes de Newton</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

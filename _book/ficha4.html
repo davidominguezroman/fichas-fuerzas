@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fuerzas: Fichas – 5&nbsp; Summary</title>
+<title>Fuerzas: Fichas – 4&nbsp; Palancas, Rozamiento y Leyes de Newton</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
-<link href="./ficha4.html" rel="prev">
+<link href="./summary.html" rel="next">
+<link href="./ficha3.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -81,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./summary.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ficha4.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Palancas, Rozamiento y Leyes de Newton</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -138,13 +167,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ficha4.html" class="sidebar-item-text sidebar-link">
+  <a href="./ficha4.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Palancas, Rozamiento y Leyes de Newton</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link active">
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
@@ -167,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Palancas, Rozamiento y Leyes de Newton</span></h1>
 </div>
 
 
@@ -184,7 +213,128 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In summary, this book has no content whatsoever.</p>
+<p>Nombre:______________________________________________________________________________</p>
+<hr>
+<hr>
+<p>Aunque las palancas las dais en Tecnología, vamos a hacer un breve recordatorio.</p>
+<p>Una <strong>palanca</strong> es una barra rígida que gira alrededor de un punto de apoyo llamado <strong>fulcro</strong>. En las palancas siempre se cumple que:</p>
+<p><span class="math display">\[
+F_P\cdot b_P = F_R\cdot b_R,
+\]</span></p>
+<p>Siendo:</p>
+<ul>
+<li><span class="math inline">\(F_P\)</span>: fuerza potencia (la que se realiza para levantar el peso)</li>
+<li><span class="math inline">\(F_R\)</span>: fuerza resistencia (la que ejerce la masa que se quiere levantar)</li>
+<li><span class="math inline">\(b_P\)</span>: brazo potencia (distancia desde donde se aplica la fuerza motor al fulcro)</li>
+<li><span class="math inline">\(b_R\)</span>: brazo resistencia (distancia desde la masa que se quiere levantar al fulcro)</li>
+</ul>
+<p>Tenemos tres tipos de palancas:</p>
+<table class="table">
+<colgroup>
+<col style="width: 59%">
+<col style="width: 40%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Primer género</strong>: el fulcro está entre la potencia y la resistencia</td>
+<td><img src="pictures/palancagrado1.jpg" class="img-fluid" width="148"></td>
+</tr>
+<tr class="even">
+<td><strong>Segundo género</strong>: la resistencia está entre la potencia y el fulcro</td>
+<td><img src="pictures/palancagrado2.jpeg" class="img-fluid" width="263"></td>
+</tr>
+<tr class="odd">
+<td><strong>Tercer género</strong>: la potencia está entre el fulcro y la resistencia</td>
+<td><img src="pictures/palancagrado3.jpeg" class="img-fluid" width="251"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<hr>
+<p><strong>1.-</strong> Indica <strong>de qué género</strong> son las siguientes palancas:</p>
+<ul>
+<li><p>Unas tijeras:</p></li>
+<li><p>Un cascanueces:</p></li>
+<li><p>Unas pinzas de barbacoa:</p></li>
+</ul>
+<p><strong>2.-</strong> Alberto está jugando con su hermana pequeña, Marta, en un balancín. La distancia entre Marta y el fulcro es <span class="math inline">\(b_R = 50\text{cm}\)</span>, mientras que la distancia entre Alberto y el fulcro es <span class="math inline">\(20\text{cm}\)</span>. Si marta ejerce una fuerza sobre el balancín <span class="math inline">\(F_R = 200\text{N}\)</span>, ¿qué fuerza <span class="math inline">\(F_P\)</span> tiene que ejercer Alberto?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<hr>
+<hr>
+<p>Probablemente nunca te hayas parado a pensar por qué, dependiendo de por dónde se camine, es más fácil resbalarse. Esto se debe a la <strong>fuerza de rozamiento</strong>. Si observamos cualquier superficie o cualquier objeto bajo el microscopio, veremos que <strong>todo tiene una cierta rugosidad</strong>. Estas rugosidades <strong>se enganchan unas con otras</strong>, haciendo que sea <strong>más difícil mover un objeto</strong>. La <strong>fuerza de rozamiento</strong> es una fuerza que ejercen los materiales sobre los cuerpos y que <strong>SIEMPRE se opone al movimiento</strong>. Esta fuerza depende de <strong>dos factores</strong>:</p>
+<ul>
+<li><p><strong>La rugosidad</strong>: un suelo de cemento es más rugoso que el hielo, y por eso es más difícil arrastrar algo por el cemento que por el hielo. Así que, <strong>a más rugosidad más rozamiento</strong>.</p></li>
+<li><p><strong>El peso</strong>: cuanto <strong>mayor sea el peso que se apoya, mayor será el rozamiento</strong>.</p></li>
+</ul>
+<hr>
+<hr>
+<p><strong>3.-</strong> ¿Qué cuerpos sufrirán más rozamiento?</p>
+<ul>
+<li>Una masa de 4kg sobre cemento o una masa de 8kg sobre cemento:</li>
+</ul>
+<p><br></p>
+<ul>
+<li>Una masa de 4kg sobre hielo o una masa de 4kg sobre tierra:</li>
+</ul>
+<p><br></p>
+<p><strong>4.-</strong>¿Qué tendrá más rozamiento, una encimera de mármol o una tabla de madera?</p>
+<p><br></p>
+<hr>
+<hr>
+<p>Ya hemos visto algún la definición de fuerza y hemos visto los diferentes movimientos básicos de un cuerpo, pero… ¿qué leyes físicas gobiernan sobre esto? <strong><em>Isaac Newton</em></strong> enunció sus tres leyes para explicar cómo se mueven los cuerpos:</p>
+<ul>
+<li><p><strong>Primera ley</strong> (principio de inercia): todo cuerpo <strong>permanece en reposo o en movimiento rectilíneo uniforme</strong> mientras <strong>no actúe ninguna fuerza sobre él</strong>.</p></li>
+<li><p><strong>Segunda ley</strong> (principio fundamental): la <strong>aceleración</strong> de un cuerpo es <strong>directamente proporcional a la fuerza</strong> que actúa sobre él <strong>e inversamente proporcional a su masa</strong>.</p></li>
+</ul>
+<p><span class="math display">\[
+F=m\cdot a
+\]</span></p>
+<ul>
+<li><strong>Tercera ley</strong> (principio de acción y reacción): si un <strong>cuerpo ejerce una fuerza</strong> sobre otro, este ejerce una <strong>fuerza igual, pero de sentido contrario</strong>, sobre el primero.</li>
+</ul>
+<p>A partir de la segunda ley, podemos calcular el peso de cualquier masa. El <strong>peso, P,</strong> es la <strong>fuerza</strong> con la que un planeta <strong>atrae a una masa</strong>. Esta fuerza produce una aceleración, que llamaremos <span class="math inline">\(g\)</span>, quedando la ecuación:</p>
+<p><span class="math display">\[
+P=m\cdot g
+\]</span></p>
+<hr>
+<hr>
+<p><strong>5.-</strong> Si un conductor tiene un accidente y no lleva el cinturón puesto, ¿Por qué sale disparado?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>6.-</strong> El 26 de marzo de 2024, en Baltimore, un barco carguero cuya masa <span class="math inline">\(m=95 128 000 \text{kg}\)</span> chocó contra el pilar de un puente que había en la bahía, destruyendo el puente. El barco se movía a una velocidad de 7 nudos <span class="math inline">\(v_o = 3,6 \text{m}/\text{s}\)</span> y tardó en parar <span class="math inline">\(10\text{s}\)</span>.</p>
+<p>a) Calcula <strong>la aceleración</strong> que sufrió el barco al detenerse <span class="math inline">\(v_f = 0\text{m}/\text{s}\)</span>.</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>b) Calcula <strong>la fuerza que el puente ejerció sobre el barco.</strong></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>c) ¿Por qué crees que el puente quedó destruido? Intenta explicarlo utilizando las leyes de Newton que hemos visto.</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>7.-</strong> La aceleración que sufre cualquier cuerpo que cae sobre la Tierra es <span class="math inline">\(g_{Tierra}=9,8 \text{m}/\text{s}²\)</span>. Calcula cuál será el peso de una masa <span class="math inline">\(m=200 \text{kg}\)</span>.</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>8.-</strong> Un satélite tiene un peso <span class="math inline">\(P=4705\text{N}\)</span> en la Tierra. Datos: <span class="math inline">\(g_{Tierra} = 9,8 \text{m}/\text{s}²\)</span>, <span class="math inline">\(g_{Venus}=8,87 \text{m}/\text{s}²\)</span>.</p>
+<p>a) ¿Cuál es <strong>su masa</strong>?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>b) ¿Cuánto pesará en la superficie de Venus?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
 
 
 
@@ -611,13 +761,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./ficha4.html" class="pagination-link" aria-label="Palancas, Rozamiento y Leyes de Newton">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Palancas, Rozamiento y Leyes de Newton</span></span>
+      <a href="./ficha3.html" class="pagination-link" aria-label="Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

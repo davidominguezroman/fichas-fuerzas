@@ -1,0 +1,277 @@
+---
+title: "Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas"
+---
+
+Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+En física **es fundamental** poder representar movimientos, posiciones, variaciones, etc., para poder entender cómo funciona todo. Primero, vamos a hablar sobre tablas. **Las tablas me permiten ordenar los parámetros que yo controlo** y escribir las medidas que realizo después. Por ejemplo, si cada segundo quiero medir la posición de un objeto, escribo primero el tiempo que aparece en el cronómetro y luego apunto la posición del objeto:
+
+|         |     |     |     |     |     |
+|:-------:|:---:|:---:|:---:|:---:|:---:|
+| **t/s** |  0  |  1  |  2  |  3  |  4  |
+| **s/m** | 10  | 18  | 26  | 34  | 42  |
+
+Es **importante que aquello que vayamos a poner en el eje horizontal sea lo primero de la tabla**. Al dibujar la gráfica quedaría así:
+
+```{r}
+# Crear un dataframe con los valores de tiempo y posición
+datos <- data.frame(t = c(0, 1, 2, 3, 4), s = c(10, 18, 26, 34, 42))
+
+# Graficar la posición en función del tiempo
+plot(datos$t, datos$s, type = "o", 
+     xlab = "t/s", ylab = "s/m", 
+     main = "Posición en función del tiempo",
+     col = "blue", pch = 16, lwd = 2)
+
+# Agregar cuadrícula al gráfico
+grid()
+
+# Mostrar la gráfica
+
+```
+
+------------------------------------------------------------------------
+
+A la hora de interpretar gráficas en las que se represente la posición de un cuerpo en función del tiempo (gráficas posición tiempo o gráficas s-t), tenemos que fijarlos en **dos cosas fundamentales**:
+
+-   ¿Es una línea? Si la respuesta es sí, entonces estamos ante un MRU.
+-   ¿La pendiente es positiva, negativa o cero? Si la pendiente es positiva, la posición aumentará con el tiempo, y si es negativa disminuirá. Si la pendiente es cero, el cuerpo siempre estará en la misma posición, así que su velocidad será cero.
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Definir los datos de tiempo y posición para cada velocidad
+tiempo = [0, 1, 2, 3]
+posicion_positiva = [1, 2, 3, 4]  # Velocidad constante positiva
+posicion_negativa = [4, 3, 2, 1]  # Velocidad constante negativa
+posicion_cero = [2, 2, 2, 2]      # Velocidad igual a cero
+
+# Crear una figura con tres subgráficos
+fig, axs = plt.subplots(1, 3, figsize=(12, 4))
+
+# Graficar la posición en función del tiempo para la velocidad constante positiva
+axs[0].plot(tiempo, posicion_positiva, 'bo-', linewidth=2)
+axs[0].set_title('Velocidad positiva')
+axs[0].set_xlabel('t/s')
+axs[0].set_ylabel('s/m')
+#axs[0].set_xlim([0, 4])
+#axs[0].set_ylim([0, 4])
+axs[0].tick_params(axis='both', which='both', bottom=False, top=False, left=False, right=False)
+
+# Graficar la posición en función del tiempo para la velocidad constante negativa
+axs[1].plot(tiempo, posicion_negativa, 'ro-', linewidth=2)
+axs[1].set_title('Velocidad negativa')
+axs[1].set_xlabel('t/s')
+axs[1].set_ylabel('s/m')
+#axs[1].set_xlim([0, 4])
+#axs[1].set_ylim([0, 4])
+axs[1].tick_params(axis='both', which='both', bottom=False, top=False, left=False, right=False)
+
+# Graficar la posición en función del tiempo para la velocidad igual a cero
+axs[2].plot(tiempo, posicion_cero, 'go-', linewidth=2)
+axs[2].set_title('Velocidad cero')
+axs[2].set_xlabel('t/s')
+axs[2].set_ylabel('s/m')
+#axs[2].set_xlim([0, 4])
+#axs[2].set_ylim([0, 4])
+axs[2].tick_params(axis='both', which='both', bottom=False, top=False, left=False, right=False)
+
+# Ajustar el espaciado entre los subgráficos
+plt.tight_layout()
+
+# Mostrar la figura
+plt.show()
+
+```
+
+Los **casos** en los que las representaciones **no sean líneas rectas no los vamos a ver**.
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**1.-** Las posiciones de un móvil vienen dadas por la siguiente tabla de datos. Haz la representación gráfica escribiendo también el nombre en los ejes. ¿Cómo es el movimiento?
+
+|         |     |     |     |     |     |
+|---------|-----|-----|-----|-----|-----|
+| **t/s** | 0   | 2   | 4   | 6   | 8   |
+| **s/m** | 10  | 15  | 20  | 25  | 30  |
+
+```{R}
+# Crear una gráfica vacía
+plot(NA, NA, xlim = c(0, 10), ylim = c(0, 35), xlab = "", ylab = "", 
+     xaxt = "n", yaxt = "n", xaxs = "i", yaxs = "i")
+
+# Establecer los intervalos de los ejes x e y
+axis(1, at = seq(0, 10, by = 1))
+axis(2, at = seq(0, 35, by = 10))
+
+# Agregar rejilla
+grid()
+
+```
+
+**2.-** Un autobús con destino a Logroño sale de Santo Domingo de la Calzada con una velocidad de $100 \text{ km}/\text{h}$. La distancia entre Santo Domingo de la Calzada y Logroño es de $46,4\text{ km}$. **Calcula el tiempo que tarda en llegar en minutos** y dibuja la gráfica representando la **posición en km y el tiempo en minutos**. Calcula las posiciones cada 10 minutos y así será más fácil. **¿Cómo es el movimiento?**
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+|           |     |     |     |     |
+|-----------|-----|-----|-----|-----|
+| **t/min** |     |     |     |     |
+| **s/km**  |     |     |     |     |
+
+```{r}
+# Crear una gráfica vacía con ejes especificados y rejilla
+plot(NA, NA, xlim = c(0, 40), ylim = c(0, 50), xlab = "", ylab = "",
+     xaxt = "n", yaxt = "n", xaxs = "i", yaxs = "i", main = "")
+
+# Establecer los intervalos de los ejes x e y
+axis(1, at = seq(0, 40, by = 10))
+axis(2, at = seq(0, 50, by = 5))
+
+# Agregar rejilla
+grid()
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Con las gráficas velocidad-tiempo (v-t) tenemos una situación parecida. Tenemos que fijarnos en dos cosas:
+
+-   ¿Es una línea recta? Si lo es, entonces estamos en un MRU o un MRUA. No veremos ningún caso en el que no sean rectas, pero existen.
+
+-   ¿La pendiente es positiva, negativa o cero? Si la **pendiente es positiva**, el móvil cada vez tendrá una **velocidad más alta** y **si es negativa**, cada vez tendrá una **velocidad más baja**. **En los dos casos** estaremos ante un **MRUA**. Si la **pendiente es cero**, la velocidad no cambia y estaremos ante un **MRU**.
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Definir los datos de tiempo y posición para cada velocidad
+tiempo = [0, 1, 2, 3]
+posicion_positiva = [1, 2, 3, 4]  # Velocidad constante positiva
+posicion_negativa = [4, 3, 2, 1]  # Velocidad constante negativa
+posicion_cero = [2, 2, 2, 2]      # Velocidad igual a cero
+
+# Crear una figura con tres subgráficos
+fig, axs = plt.subplots(1, 3, figsize=(12, 4))
+
+# Graficar la posición en función del tiempo para la velocidad constante positiva
+axs[0].plot(tiempo, posicion_positiva, 'bo-', linewidth=2)
+axs[0].set_title('MRUA con a>0')
+axs[0].set_xlabel('t (s)')
+axs[0].set_ylabel('v (m/s)')
+#axs[0].set_xlim([0, 4])
+#axs[0].set_ylim([0, 4])
+axs[0].tick_params(axis='both', which='both', bottom=False, top=False, left=False, right=False)
+
+# Graficar la posición en función del tiempo para la velocidad constante negativa
+axs[1].plot(tiempo, posicion_negativa, 'ro-', linewidth=2)
+axs[1].set_title('MRUA con a<0')
+axs[1].set_xlabel('t (s)')
+axs[1].set_ylabel('v (m/s)')
+#axs[1].set_xlim([0, 4])
+#axs[1].set_ylim([0, 4])
+axs[1].tick_params(axis='both', which='both', bottom=False, top=False, left=False, right=False)
+
+# Graficar la posición en función del tiempo para la velocidad igual a cero
+axs[2].plot(tiempo, posicion_cero, 'go-', linewidth=2)
+axs[2].set_title('MRU')
+axs[2].set_xlabel('t (s)')
+axs[2].set_ylabel('v (m/s)')
+#axs[2].set_xlim([0, 4])
+#axs[2].set_ylim([0, 4])
+axs[2].tick_params(axis='both', which='both', bottom=False, top=False, left=False, right=False)
+
+# Ajustar el espaciado entre los subgráficos
+plt.tight_layout()
+
+# Mostrar la figura
+plt.show()
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**1.-** Se han registrado las diferentes velocidades de un coche durante $10\text{s}$:
+
+|            |     |     |     |     |     |     |     |     |     |     |     |
+|------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| **t(s)**   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| **v(m/s)** | 0   | 3   | 6   | 9   | 12  | 15  | 18  | 21  | 24  | 27  | 30  |
+
+Dibuja la gráfica v-t **escribiendo los nombres de los ejes y sus unidades**.
+
+```{r}
+# Crear una gráfica vacía con ejes especificados y rejilla
+plot(NA, NA, xlim = c(0, 11), ylim = c(0, 33), xlab = "", ylab = "",
+     xaxt = "n", yaxt = "n", xaxs = "i", yaxs = "i", main = "")
+
+# Establecer los intervalos de los ejes x e y
+axis(1, at = seq(0, 11, by = 1))
+axis(2, at = seq(0, 33, by = 3))
+
+# Agregar rejilla
+grid()
+
+```
+
+**¿Cómo es el movimiento??**
+<br>
+
+**2.-** Marc Márquez se encuentra en el circuito de Portimao haciendo unas pruebas con su nueva moto. En $3\text{s}$ pasa de $0$ a $118,8\text{km}/\text{h}$. **Calcula la aceleración en** $\text{m}/\text{s}²$ (recuerda pasar la velocidad a m/s), **rellena la tabla** con los valores de la velocidad entre $t=0\text{s}$ y $t=5\text{s}$ y **dibuja la gráfica**:
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+|             |     |     |     |     |     |     |
+|-------------|-----|-----|-----|-----|-----|-----|
+| **t (s)**   |     |     |     |     |     |     |
+| **v (m/s)** |     |     |     |     |     |     |
+
+```{r}
+# Crear una gráfica vacía con ejes especificados y rejilla
+plot(NA, NA, xlim = c(0, 6), ylim = c(0, 56), xlab = "", ylab = "",
+     xaxt = "n", yaxt = "n", xaxs = "i", yaxs = "i", main = "")
+
+# Establecer los intervalos de los ejes x e y
+axis(1, at = seq(0, 6, by = 1))
+axis(2, at = seq(0, 56, by = 11))
+
+# Agregar rejilla
+grid()
+
+```
