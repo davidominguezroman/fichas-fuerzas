@@ -170,7 +170,7 @@ $$
 
 $F$ es la fuerza que se ejerce y su unidad es el Newton (N), $K$ es la constante elástica del muelle y sus unidades son Newton por metro (N/m) y $x$ el alargamiento, cuyas unidades son metros (m). Un muelle con una $K$ más alta se alargará menos que otro con una constante elástica más baja.
 
-A esta ecuación la llamamos ***Ley de Hooke*** y fue enunciada por ***Robert Hooke***
+A esta ecuación la llamamos ***Ley de Hooke*** y fue enunciada por ***Robert Hooke***.
 
 ![](./pictures/Screen%20Shot%202017-06-01%20at%2012.46.01%20PM.png){fig-align="center" width="571"}
 
