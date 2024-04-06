@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-99.9.9">
+<meta name="generator" content="quarto-1.5.28">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -177,8 +206,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#fuerza-gravitatoria" id="toc-fuerza-gravitatoria" class="nav-link active" data-scroll-target="#fuerza-gravitatoria">Fuerza Gravitatoria</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -202,8 +237,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Nombre:______________________________________________________________________________</p>
+<hr>
+<hr>
+<p>En esta actividad de laboratorio vamos a ver cómo funcionan las algunas de las fuerzas de la naturaleza, de forma fácil y sencilla, mediante experimentos muy sencillos. Al mismo tiempo tendréis que rellenar esta ficha, que será como una especie de “informe de laboratorio”. En ella se os harán preguntas sobre qué está pasando en cada experimento y, en algún caso, se os pedirá algún cálculo.</p>
+<hr>
+<hr>
+<section id="fuerza-gravitatoria" class="level1 unnumbered">
+<h1 class="unnumbered">Fuerza Gravitatoria</h1>
+<p>La fuerza gravitatoria es una de las <strong>fuerzas elementales</strong>. Es la razón por la que existen las estrellas, los planetas, las galaxias, los gujeros negros,… También es la razón de que los planetas del Sistema Solar orbiten alrededor del Sol, que existan las mareas, los días y las noches y las estaciones.</p>
+<p>Tiene las siguientes características:</p>
+<table class="table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Es una fuerza <strong>a distancia</strong></td>
+<td>No hace falta que los cuerpos estén en contacto para que la fuerza exista.</td>
+</tr>
+<tr class="even">
+<td>Es una fuerza <strong>atractiva</strong></td>
+<td>Dos cuerpos se van a ver atraídos solo con tener masa.</td>
+</tr>
+<tr class="odd">
+<td>Es una fuerza <strong>muy débil</strong></td>
+<td>Para que la fuerza tenga un valor significativo, hace falta una masa muy grande (la masa de la Tierra es de <span class="math inline">\(5\cdot 10^{24}\text{kg}\)</span>.)</td>
+</tr>
+<tr class="even">
+<td>Depende de la <strong>masa</strong> de los cuerpos</td>
+<td>La fuerza gravitatoria es <strong>directamente proporcional</strong> a las masas. Si una masa se duplica, la fuerza también.</td>
+</tr>
+<tr class="odd">
+<td>Depende de la <strong>distancia</strong></td>
+<td>Es <strong>inversamente proporcional al cuadrado de la distancia</strong>. Si la distancia se duplica, la fuerza se divide por cuatro.</td>
+</tr>
+<tr class="even">
+<td>Es <strong>universal</strong></td>
+<td>Todos los cuerpos sufren esta fuerza.</td>
+</tr>
+</tbody>
+</table>
+<p>Llegados a este punto, es importante diferenciar entre <strong>masa</strong> y <strong>peso</strong>: - <strong>Masa</strong>: es la cantidad de materia que tiene un cuerpo. No cambia en función del lugar en el que esté. Su unidad es el <strong>kg</strong> y es una <strong>unidad básica</strong>. - <strong>Peso</strong>: es la fuerza con la que la Tierra atrae a un cuerpo. Depende de la gravedad del lugar donde se mida. Su unidad es el <strong>N</strong> y es una <strong>unidad derivada</strong>.</p>
+<hr>
+<p><strong>Experimento 1</strong>:</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

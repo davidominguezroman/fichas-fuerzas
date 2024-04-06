@@ -21,7 +21,7 @@ La fuerza gravitatoria es una de las **fuerzas elementales**. Es la razón por l
 Tiene las siguientes características:
 
 |                                       |                                                                                                                                         |
-|------------------|------------------------------------------------------|
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Es una fuerza **a distancia**         | No hace falta que los cuerpos estén en contacto para que la fuerza exista.                                                              |
 | Es una fuerza **atractiva**           | Dos cuerpos se van a ver atraídos solo con tener masa.                                                                                  |
 | Es una fuerza **muy débil**           | Para que la fuerza tenga un valor significativo, hace falta una masa muy grande (la masa de la Tierra es de $5\cdot 10^{24}\text{kg}$.) |
@@ -29,10 +29,8 @@ Tiene las siguientes características:
 | Depende de la **distancia**           | Es **inversamente proporcional al cuadrado de la distancia**. Si la distancia se duplica, la fuerza se divide por cuatro.               |
 | Es **universal**                      | Todos los cuerpos sufren esta fuerza.                                                                                                   |
 
-Llegados a este punto, es importante diferenciar entre **masa** y **peso**:
-- **Masa**: es la cantidad de materia que tiene un cuerpo. No cambia en función del lugar en el que esté. Su unidad es el **kg** y es una **unidad básica**.
-- **Peso**: es la fuerza con la que la Tierra atrae a un cuerpo. Depende de la gravedad del lugar donde se mida. Su unidad es el **N** y es una **unidad derivada**.
+Llegados a este punto, es importante diferenciar entre **masa** y **peso**: - **Masa**: es la cantidad de materia que tiene un cuerpo. No cambia en función del lugar en el que esté. Su unidad es el **kg** y es una **unidad básica**. - **Peso**: es la fuerza con la que la Tierra atrae a un cuerpo. Depende de la gravedad del lugar donde se mida. Su unidad es el **N** y es una **unidad derivada**.
 
---------------------------------------------------------------------------
+------------------------------------------------------------------------
 
-**Experimento 1**: 
+**Experimento 1**:

@@ -82,11 +82,11 @@
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "5  Summary",
+    "title": "8  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
@@ -107,6 +107,16 @@
     "text": "Fuerza de rozamiento",
     "crumbs": [
       "Lista de animaciones"
+    ]
+  },
+  {
+    "objectID": "ficha5.html",
+    "href": "ficha5.html",
+    "title": "5  Informe de laboratorio: entendiendo las diferentes fuerzas de la naturaleza",
+    "section": "",
+    "text": "Nombre:______________________________________________________________________________\n\n\nEn esta actividad de laboratorio vamos a ver cómo funcionan las algunas de las fuerzas de la naturaleza, de forma fácil y sencilla, mediante experimentos muy sencillos. Al mismo tiempo tendréis que rellenar esta ficha, que será como una especie de “informe de laboratorio”. En ella se os harán preguntas sobre qué está pasando en cada experimento y, en algún caso, se os pedirá algún cálculo.\n\n\n\nFuerza Gravitatoria\nLa fuerza gravitatoria es una de las fuerzas elementales. Es la razón por la que existen las estrellas, los planetas, las galaxias, los gujeros negros,… También es la razón de que los planetas del Sistema Solar orbiten alrededor del Sol, que existan las mareas, los días y las noches y las estaciones.\nTiene las siguientes características:\n\n\n\n\n\n\n\nEs una fuerza a distancia\nNo hace falta que los cuerpos estén en contacto para que la fuerza exista.\n\n\nEs una fuerza atractiva\nDos cuerpos se van a ver atraídos solo con tener masa.\n\n\nEs una fuerza muy débil\nPara que la fuerza tenga un valor significativo, hace falta una masa muy grande (la masa de la Tierra es de \\(5\\cdot 10^{24}\\text{kg}\\).)\n\n\nDepende de la masa de los cuerpos\nLa fuerza gravitatoria es directamente proporcional a las masas. Si una masa se duplica, la fuerza también.\n\n\nDepende de la distancia\nEs inversamente proporcional al cuadrado de la distancia. Si la distancia se duplica, la fuerza se divide por cuatro.\n\n\nEs universal\nTodos los cuerpos sufren esta fuerza.\n\n\n\nLlegados a este punto, es importante diferenciar entre masa y peso: - Masa: es la cantidad de materia que tiene un cuerpo. No cambia en función del lugar en el que esté. Su unidad es el kg y es una unidad básica. - Peso: es la fuerza con la que la Tierra atrae a un cuerpo. Depende de la gravedad del lugar donde se mida. Su unidad es el N y es una unidad derivada.\n\nExperimento 1:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Informe de laboratorio: entendiendo las diferentes fuerzas de la naturaleza</span>"
     ]
   }
 ]
