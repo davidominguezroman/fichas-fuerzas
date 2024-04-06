@@ -92,11 +92,11 @@ Las fuerzas pueden actuar de distintas **formas**:
 Los **cuerpos** pueden **clasificarse** en:
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------+:--------------------------------------------------------------------:+
-| -   **Rígidos**: **no se deforman** ante la acción de una fuerza. Por ejemplo: la pata de una silla.                                                 | ![](D_NQ_NP_770113-MLA46490092791_062021-W.webp){width="28%"}        |
+| -   **Rígidos**: **no se deforman** ante la acción de una fuerza. Por ejemplo: la pata de una silla.                                                 | ![](./pictures/D_NQ_NP_770113-MLA46490092791_062021-W.webp){width="28%"}        |
 +------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
-| -   **Plásticos**: **se deforman** bajo la acción de una fuerza, pero **no vuelven a su estado natural** cuando deja de actuar. Por ejemplo, el pan. | ![](Little_girl_holding_plasticine._(49810941302).webp){width="138"} |
+| -   **Plásticos**: **se deforman** bajo la acción de una fuerza, pero **no vuelven a su estado natural** cuando deja de actuar. Por ejemplo, el pan. | ![](./pictures/Little_girl_holding_plasticine._(49810941302).webp){width="138"} |
 +------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
-| -   **Elásticos**: son **capaces de recuperar su forma inicial** cuando una fuerza los ha deformado. Por ejemplo: una goma elástica.                 | ![](goma-el-stica_PDT01256.webp){width="124"}                        |
+| -   **Elásticos**: son **capaces de recuperar su forma inicial** cuando una fuerza los ha deformado. Por ejemplo: una goma elástica.                 | ![](./pictures/goma-el-stica_PDT01256.webp){width="124"}                        |
 +------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
 
 ------------------------------------------------------------------------
@@ -149,9 +149,9 @@ $F$ es la fuerza que se ejerce y su unidad es el Newton (N), $K$ es la constante
 
 A esta ecuación la llamamos ***Ley de Hooke*** y fue enunciada por ***Robert Hooke***
 
-![](Screen%20Shot%202017-06-01%20at%2012.46.01%20PM.png){fig-align="center" width="571"}
+![](./pictures/Screen%20Shot%202017-06-01%20at%2012.46.01%20PM.png){fig-align="center" width="571"}
 
-![](Untitled%201.png){fig-align="center" width="286"}
+![](./pictures/Untitled%201.png){fig-align="center" width="286"}
 
 Para medir fuerzas y saber el peso de cualquier objeto, se utiliza un **dinamómetro**.
 
