@@ -16,21 +16,284 @@ En esta actividad de laboratorio vamos a ver cómo funcionan las algunas de las 
 
 # Fuerza Gravitatoria {.unnumbered}
 
-La fuerza gravitatoria es una de las **fuerzas elementales**. Es la razón por la que existen las estrellas, los planetas, las galaxias, los gujeros negros,... También es la razón de que los planetas del Sistema Solar orbiten alrededor del Sol, que existan las mareas, los días y las noches y las estaciones.
+La fuerza gravitatoria es una de las **fuerzas elementales**. Es la razón por la que existen las estrellas, los planetas, las galaxias, los agujeros negros,... También es la razón de que los planetas del Sistema Solar orbiten alrededor del Sol, que existan las mareas, los días y las noches y las estaciones.
 
 Tiene las siguientes características:
 
-|                                       |                                                                                                                                         |
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | Es una fuerza **a distancia**         | No hace falta que los cuerpos estén en contacto para que la fuerza exista.                                                              |
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | Es una fuerza **atractiva**           | Dos cuerpos se van a ver atraídos solo con tener masa.                                                                                  |
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | Es una fuerza **muy débil**           | Para que la fuerza tenga un valor significativo, hace falta una masa muy grande (la masa de la Tierra es de $5\cdot 10^{24}\text{kg}$.) |
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | Depende de la **masa** de los cuerpos | La fuerza gravitatoria es **directamente proporcional** a las masas. Si una masa se duplica, la fuerza también.                         |
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | Depende de la **distancia**           | Es **inversamente proporcional al cuadrado de la distancia**. Si la distancia se duplica, la fuerza se divide por cuatro.               |
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | Es **universal**                      | Todos los cuerpos sufren esta fuerza.                                                                                                   |
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 
 Llegados a este punto, es importante diferenciar entre **masa** y **peso**: - **Masa**: es la cantidad de materia que tiene un cuerpo. No cambia en función del lugar en el que esté. Su unidad es el **kg** y es una **unidad básica**. - **Peso**: es la fuerza con la que la Tierra atrae a un cuerpo. Depende de la gravedad del lugar donde se mida. Su unidad es el **N** y es una **unidad derivada**.
 
 ------------------------------------------------------------------------
 
-**Experimento 1**:
+**Experimento 1**: En este experimento vamos a ver cómo la fuerza de la gravedad afecta a un carrito sobre un plano. Para ello, variaremos la masa del carrito y el ángulo del plano. En nuestro caso, el plano representa la vertical, así que es como si lo estuviéramos viendo caer con la cabeza girada. Con la variación del ángulo del plano estamos "simulando" diferentes gravedades: solo una parte de la fuerza de la gravedad, la que lo va a empujar a lo largo del plano, va a impulsar el carrito. De esta forma, limitamos cuánto de la gravedad terrestre empuja al carrito.
+
+a\) Cuando el plano está horizontal el carrito no se mueve. ¿Por qué?
+
+<br>
+
+<br>
+
+<br>
+
+b\) Si aumentamos la masa con el plano horizontal, ¿cambia algo? ¿Por qué?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+c\) Sin añadir masas aumentamos el ángulo de inclinación. ¿Qué ocurre?
+
+<br>
+
+<br>
+
+<br>
+
+d\) Si aumentamos la masa del carro, ¿cae más rápido?
+
+<br>
+
+e\) Si aumentamos el ángulo, ¿cae más rápido?
+
+<br>
+
+f\) ¿Por qué pasa esto?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+# Energía eléctrica {.unnumbered}
+
+La energía eléctrica es otra de las fuerzas elementales de la naturaleza. Esta fuerza se debe a las posibles diferencias de carga que pueda tener la materia. La materia generalmente es neutra pero, debido a efectos que veremos después, puede adquirir algún tipo de carga. Un cuerpo puede tener:
+
+-   **Carga positiva**: si tiene **más** cargas positivas que negativas. –\> Los **cationes**, por ejemplo.
+-   **Carga neutra**: si tiene **las mismas** cargas positivas que negativas.
+-   **Carga negativa**: si tiene **menos** cargas positivas que negativas. –\> Los **aniones**, por ejemplo.
+
+Los cuerpos pueden adquirir carga positiva o negativa mediante 3 métodos de **electrización**:
+
+-   **Por frotamiento**: cuando dos cuerpos se frotan, uno puede arrancar electrones al otro.
+
+-   **Por contacto**: cuando un cuerpo cargado toca a otro de carga neutra, se produce una redistribución, de tal forma que los dos acaban con la misma carga.
+
+-   **Por inducción**: un cuerpo cargado, al acercarse a uno neutro, puede atraer las cargas de distinto signo cel cuerpo neutro, generándose una fuerza eléctrica de atracción.
+
+La fuerza eléctrica tiene las siguientes características:
+
++----------------------------------+----------------------------------------------------------------------------+
+| Depende de las **cargas**        | -   La masa no afecta a esta fuerza.                                       |
+|                                  | -   **Directamente proporcional** a las cargas.                            |
++----------------------------------+----------------------------------------------------------------------------+
+| Es **atractiva** o **repulsiva** | -   Las cargas **del mismo signo** se **repelen**.                         |
+|                                  | -   Las cargas **de signo contrario** se **atraen**.                       |
++----------------------------------+----------------------------------------------------------------------------+
+| Es una fuerza **muy fuerte**     | Unas cargas **muy pequeñas** pueden provocar unas **fuerzas muy grandes**. |
++----------------------------------+----------------------------------------------------------------------------+
+| Depende de la **distancia**      | Es **inversamente proporcional al cuadrado de la distancia**.              |
++----------------------------------+----------------------------------------------------------------------------+
+| Es una fuerza **a distancia**    | No es necesario que los cuerpos se toquen para sufrir la fuerza.           |
++----------------------------------+----------------------------------------------------------------------------+
+
+------------------------------------------------------------------------
+
+**Experimento 2**: En este experimento vamos a utilizar una varilla de cristal, que frotaremos con lana o algodón, e intentaremos atraer trocitos de papel.
+
+a\) Al frotar la varilla con la tela, ¿se nota que pase algo?
+
+<br>
+
+b\) Al acercar la varilla frotada a unos trocitos de papel, estos se ven atraídos por la varilla. ¿Por qué ocurre esto?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+c\) ¿Qué tipos de electrización hemos visto?
+
+<br>
+
+<br>
+
+**Experimento 3**: En este experimento vamos a intentar atraer un chorrito de agua del grifo con un globo. Parece una tarea imposible, pero si el chorro de agua es muy pequeño, podremos verlo. Para que esto funcione es necesario frotar con lana o algodón un globo hinchado.
+
+a\) Si acercamos el globo sin frotar al grifo no ocurre nada. ¿Por qué?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+b\) Frotamos el globo, lo acercamos al chorro y mágicamente el chorro se curva. ¿Qué está pasando?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+# Fuerza magnética {.unnumbered}
+
+El **magnetismo** es un fenómeno que sufren ciertos materiales. Nos ayuda a guiarnos en el bosque con una brújula, los altavoces necesitan imanes para generar sonido, y el campo magnético terrestre nos protege de radiación cósmica y procedente del Sol. Sin el magnetismo la vida en la Tierra tampoco sería posible.
+
+Los imanes pueden ser de dos tipos:
+
+-   **Naturales**: minerales como la magnetita, de donde sale el hierro, son imanes naturales.
+-   **Artificiales**: son imanes realizados por el hombre.
+
+Los imanes tienen ciertas **propiedades**:
+
+-   **Tienen dos polos**: norte y sur. En esas zonas el magnetismo es máximo. **No pueden separarse**.
+-   **Atracción**: los imanes se van a atraer entre ellos, pero sólo si **los polos son opuestos**.
+-   **Repulsión**: los imanes se van a repeler entre ellos, pero sólo si **los polos son iguales**.
+-   **Campo magnético**: es la zona alrededor de los imanes donde actúan las fuerzas magnéticas. Se representa mediante unas líneas, llamadas **líneas de campo magnético**.
+
+La Tierra tiene también un **campo magnético** con las siguientes propiedades:
+
+-   Se genera por el movimiento de metales fundidos en el núcleo externo de la Tierra.
+
+-   Nos protege del viento solar, que son partículas cargadas que provienen del Sol.
+
+-   Cuando el viento solar es muy fuerte, las partículas cargadas llegan a la capa de la atmósfera llamada **ionosfera** generando las **auroras**. Suelen darse en los polos, pero pueden verse en latitudes más bajas.
+
+------------------------------------------------------------------------
+
+**Experimento 4**: En este experimento vamos a poder observar las líneas de campo magnético de un imán. Para ello, cogeremos un folio y esparciremos virutas de hierro por encima de él. Cuando acerquemos el imán por debajo del folio podremos ver las líneas de campo.
+
+a\) Al echar las virutas de hierro, sin acercar el imán, ¿ocurre algo?
+
+<br>
+
+<br>
+
+b\) Al colocar el folio encima del imán, ¿qué ocurre?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+c\) ¿Por qué ocurre esto?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+# Electromagnetismo {.unnumbered}
+
+Aunque los tratemos por separado, la electricidad y el magnetismo están muy relacionados. El **electromagnetismo** estudia la relación que existe entre los dos fenómenos.
+
+## Experiencia de Faraday
+
+***Michael Faraday*** experimentó cómo, al pasar un imán a través de un hilo enrollado en forma de bobina, se producía una corriente eléctrica. Este experimento sentó las bases de la **generación de electricidad** que conocemos. Casi todas las formas de energía (carbón, petróleo, gas, nuclear, eólica, hidráulica, etc) utilizan unos dispositivos llamados **alternadores**: estos convierten el movimiento rotatorio en electricidad utilizando este principio, que llamaremos **inducción**.
+
+Hoy en día podemos ver el electromagnetismo en muchas aplicaciones: los timbres de las puertas, los trenes, las guitarras eléctricas, microondas, televisiones, ordenadores, resonancia magnética nuclear,... Está siempre a nuestro alrededor.
+
+------------------------------------------------------------------------
+
+**Experimento 5**: En este experimento vamos a realizar uno de las primeras experiencias que dieron a pensar que la electricidad y el magnetismo estaban relacionados: ***El experimento de Oersted***. Para ello, utilizaremos una pila o una fuente de alimentación, un cable y una brújula.
+
+a\) Al colocar el cable sobre la brújula, sin conectarlo a la pila, ¿ocurre algo?
+
+<br>
+
+b\) Conectamos el cable a la pila y, una vez nos hemos asegurado de que la brújula está quieta, acercamos el cable a la brújula. ¿Qué está ocurriendo?
+
+<br>
+
+<br>
+
+<br>
+
+c\) ¿Por qué ocurre?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+d\) Damos la vuelta al cable, dejamos que la brújula vuelva a su sitio y volvemos a ponerlo encima. ¿Qué ocurre ahora?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+e\) ¿Por qué crees que ocurre eso al darle la vuelta?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Así llegamos al final de esta sesión de laboratorio. Llegados a este punto, me gustaría que respondieras a esta pregunta:
+
+¿Te ha gustado? Indica tu respuesta, del 1 al 5, siendo el 1 nada y el 5 mucho:
