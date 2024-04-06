@@ -235,8 +235,16 @@ window.Quarto = {
 
 
 <p>Nombre:______________________________________________________________________________</p>
-<hr>
-<hr>
+<table class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en davidominguezroman.github.io/fichas-fuerzas/</td>
+</tr>
+</tbody>
+</table>
 <p>En física <strong>es fundamental</strong> poder representar movimientos, posiciones, variaciones, etc., para poder entender cómo funciona todo. Primero, vamos a hablar sobre tablas. <strong>Las tablas me permiten ordenar los parámetros que yo controlo</strong> y escribir las medidas que realizo después. Por ejemplo, si cada segundo quiero medir la posición de un objeto, escribo primero el tiempo que aparece en el cronómetro y luego apunto la posición del objeto:</p>
 <table class="table">
 <tbody>
@@ -905,7 +913,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -4,9 +4,9 @@ title: "Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook"
 
 Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io/fichas-fuerzas/](davidominguezroman.github.io/fichas-fuerzas/) |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Una **fuerza** es toda causa que pueda deformar un objeto o modificar su estado de reposo o movimiento. La unidad de fuerza en el Sistema Internacional es el Newton (N).
 
@@ -43,8 +43,7 @@ A la hora de **representar** las fuerzas, tenemos que entender que una fuerza no
 
 Cuando tenemos varias fuerzas, podremos calcular la **fuerza resultante**. Esta fuerza la obtendremos sumando y restando fuerzas **que tengan la misma dirección**. Es posible calcular la fuerza resultante cuando tienen direcciones diferentes, pero es algo que haréis en cursos posteriores.
 
-En el caso de la figura anterior, hay **tres fuerzas en una misma dirección**: dos fuerzas de 30N y una, **en sentido contrario**, de 80N. Si tomamos como positivo todo lo que va a la derecha y negativo lo que va a la izquierda, la fuerza resultante es
-$$
+En el caso de la figura anterior, hay **tres fuerzas en una misma dirección**: dos fuerzas de 30N y una, **en sentido contrario**, de 80N. Si tomamos como positivo todo lo que va a la derecha y negativo lo que va a la izquierda, la fuerza resultante es $$
   F_{resultante} = 80 - 30 - 30 = 20 \text{N}.
 $$
 

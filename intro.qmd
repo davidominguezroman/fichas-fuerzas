@@ -31,3 +31,30 @@
         height="600"
         allowfullscreen>
 </iframe>
+
+## Fuerza eléctrica con globos
+
+<iframe src="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_en.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+
+## Fuerza gravitatoria con bolas
+
+<iframe src="https://phet.colorado.edu/sims/html/gravity-force-lab-basics/latest/gravity-force-lab-basics_en.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+
+## Experimento de Faraday
+
+<iframe src="https://phet.colorado.edu/sims/cheerpj/faraday/latest/faraday.html?simulation=faraday"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+
+
+
