@@ -1,0 +1,9 @@
+---
+title: "Situación de Aprendizaje: sesión 1"
+---
+  
+  <iframe
+      src="situacion-sesion1.pdf"
+      width="100%"
+      height="600px"
+  ></iframe>
