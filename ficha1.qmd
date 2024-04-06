@@ -43,7 +43,8 @@ A la hora de **representar** las fuerzas, tenemos que entender que una fuerza no
 
 Cuando tenemos varias fuerzas, podremos calcular la **fuerza resultante**. Esta fuerza la obtendremos sumando y restando fuerzas **que tengan la misma dirección**. Es posible calcular la fuerza resultante cuando tienen direcciones diferentes, pero es algo que haréis en cursos posteriores.
 
-En el caso de la figura anterior, hay **tres fuerzas en una misma dirección**: dos fuerzas de 30N y una, **en sentido contrario**, de 80N. Si tomamos como positivo todo lo que va a la derecha y negativo lo que va a la izquierda, la fuerza resultante es $$
+En el caso de la figura anterior, hay **tres fuerzas en una misma dirección**: dos fuerzas de 30N y una, **en sentido contrario**, de 80N. Si tomamos como positivo todo lo que va a la derecha y negativo lo que va a la izquierda, la fuerza resultante es 
+$$
   F_{resultante} = 80 - 30 - 30 = 20 \text{N}.
 $$
 
