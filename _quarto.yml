@@ -15,8 +15,6 @@ book:
     - ficha5.qmd
     - sitaprs1.qmd
     - sitaprs2.qmd
-    - summary.qmd
-    - references.qmd
 
 bibliography: references.bib
 
