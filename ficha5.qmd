@@ -4,9 +4,9 @@ title: "Informe de laboratorio: entendiendo las diferentes fuerzas de la natural
 
 Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-+-------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io/fichas-fuerzas/](davidominguezroman.github.io/fichas-fuerzas/) |
-+-------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 En esta actividad de laboratorio vamos a ver cómo funcionan las algunas de las fuerzas de la naturaleza, de forma fácil y sencilla, mediante experimentos muy sencillos. Al mismo tiempo tendréis que rellenar esta ficha, que será como una especie de "informe de laboratorio". En ella se os harán preguntas sobre qué está pasando en cada experimento y, en algún caso, se os pedirá algún cálculo.
 
