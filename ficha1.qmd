@@ -1,13 +1,12 @@
 ---
-title: "Fuerzas: tipos de fuerzas, tipos de cuerpos y Ley de Hook"
+title: "Fuerzas: tipos de fuerzas y tipos de cuerpos"
 ---
 
 Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io/fichas-fuerzas/](davidominguezroman.github.io/fichas-fuerzas/) |
+| Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io](https://davidominguezroman.github.io/fichas-fuerzas/) |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
 Una **fuerza** es toda causa que pueda deformar un objeto o modificar su estado de reposo o movimiento. La unidad de fuerza en el Sistema Internacional es el Newton (N).
 
 Los **efectos** de una fuerza son:
@@ -29,7 +28,7 @@ Las fuerzas pueden actuar de distintas **formas**:
 
     -   Eléctrica.
 
-A la hora de **representar** las fuerzas, tenemos que entender que una fuerza no es solo un número: es un **vector**. Un vector es lo que se denomina \***un segmento orientado**, que se representa con una flecha. Está **determinado** por:
+A la hora de **representar** las fuerzas, tenemos que entender que una fuerza no es solo un número: es un **vector**. Un vector es lo que se denomina **un segmento orientado**, que se representa con una flecha. Está **determinado** por:
 
 -   **El módulo**: el módulo es el valor numérico, es decir, **lo que mide de largo**.
 
@@ -151,57 +150,39 @@ Los **cuerpos** pueden **clasificarse** en:
 **7.-** Una goma de borrar, si se aprieta con las manos recupera su forma, pero si se ejerce mucha fuerza queda deformada para siempre. ¿Por qué crees que pasa esto?
 
 <br>
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-Si cogemos un muelle cualquiera y suspendemos una masa de uno de sus extremos (la llamaremos peso), dejando el otro fijo, este se deforma y se alarga una cantidad $\Delta x$. Si suspendemos otra masa igual, el muelle se alargará el doble de lo que lo había hecho. El alargamiento de un muelle es directamente proporcional a la fuerza que se ha ejercido para alargarlo:
-
-$$
-F = K \cdot \Delta x,
-$$
-
-siendo
-
-$$
-\Delta x = x_{final} - x_{inicial}.
-$$
-
-$F$ es la fuerza que se ejerce y su unidad es el Newton (N), $K$ es la constante elástica del muelle y sus unidades son Newton por metro (N/m) y $x$ el alargamiento, cuyas unidades son metros (m). Un muelle con una $K$ más alta se alargará menos que otro con una constante elástica más baja.
-
-A esta ecuación la llamamos ***Ley de Hooke*** y fue enunciada por ***Robert Hooke***.
-
-![](./pictures/Screen%20Shot%202017-06-01%20at%2012.46.01%20PM.png){fig-align="center" width="571"}
-
-![](./pictures/Untitled%201.png){fig-align="center" width="286"}
-
-Para medir fuerzas y saber el peso de cualquier objeto, se utiliza un **dinamómetro**.
-
-![](./pictures/dinamometro.png){fig-align="center" width="286"}
-
-------------------------------------------------------------------------
-
-**8.-** Un muelle de constante elástica $K=20N/m$ tiene suspendida una masa $m=100g$, la cual ejerce una fuerza sobre el muelle $\text{F}=981 \text{ N}$. ¿Cuál será su alargamiento $\Delta x$? ¿Si su longitud inicial era $x_{inicial}=10 \text{ cm}$, cuál será la final? Utiliza unidades en el **Sistema Internacional (metros, Newton, kilogramo, etc.)**.
-
+<br>
+<br>
+<br>
 <br>
 
-<br>
+**7.-** La Luna describe un movimiento alrededor de la Tierra que **es casi circular**. ¿Podemos afirmar que sobre ella **están actuando fuerzas**? Justifica tu respuesta.
 
 <br>
-
+<br>
+<br>
 <br>
 
-<br>
+**8.-** Sobre una mesa se aplican **dos fuerzas horizontales**, de $20$ N y $40$ N. **Representa** las fuerzas y **calcula la fuerza resultante** en cada caso:
 
-**9.-** ¿Un muelle con una longitud inicial $x_{inicial}=20cm$ se alarga hasta $x_{final}=40cm$ aplicando una fuerza $F=200N$. Calcula la constante elástica del muelle, $K$. Utiliza siempre unidades del **Sistema Internacional**.
-
-<br>
+a\) Ambas se aplican hacia la derecha.
 
 <br>
-
+<br>
+<br>
 <br>
 
-<br>
+b\) La de $20$ N se aplica hacia **la derecha** y la de $40$ N hacia **la izquierda**.
 
 <br>
+<br>
+<br>
+<br>
+
+**9.-** Cuando sujetas un libro **has de aplicar una fuerza**. Sin embargo, **no cambia su estado de movimiento ni se deforma**. ¿Qué crees que está pasando? **Haz un dibujo**
+
+<br>
+<br>
+<br>
+<br>
+
+

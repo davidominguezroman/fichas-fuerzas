@@ -4,10 +4,9 @@ title: "El movimiento: tipos de movimiento, velocidad y aceleración"
 
 Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-------------------------------------------------------------------------
-Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io/fichas-fuerzas/](davidominguezroman.github.io/fichas-fuerzas/)
-
-------------------------------------------------------------------------
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io](https://davidominguezroman.github.io/fichas-fuerzas/) |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Siempre que tengamos que definir un movimiento, es decir, indicar cómo es, necesitamos definir un sistema de referencia. **El sistema de referencia** es un **punto del espacio**, del cual diremos que **su posición es** $x=0$. A partir de ese punto diremos hacia dónde consideramos que la posición es positiva. Por ejemplo, si digo que desde mi pecho hacia adelante es positivo, todo lo que esté delante de mí tendrá una posición positiva, y todo lo que esté detrás la tendrá negativa.
 
@@ -67,11 +66,13 @@ $$
 v=\frac{s}{t}.
 $$
 
-Las **unidades de la velocidad**, en el **Sistema Internacional**, son los metros por segundo, $\text{m}/\text{s}$. Otras unidades utilizadas son los kilómetros por hora, $\text{km}/\text{h}$. Normalmente, un móvil no se desplaza a velocidad constante. Por ello, definimos **velocidad instantánea** como la velocidad que lleva en un **instante muy pequeño** de tiempo y **velocidad media** a el desplazamiento del móvil entre el tiempo empleado:
+Las **unidades de la velocidad**, en el **Sistema Internacional**, son los metros por segundo, $\text{m}/\text{s}$. Otras unidades utilizadas son los kilómetros por hora, $\text{km}/\text{h}$. Normalmente, un móvil no se desplaza a velocidad constante. Por ello, definimos **velocidad instantánea** como la velocidad que lleva en un **instante muy pequeño** de tiempo y **velocidad media** al desplazamiento del móvil entre el tiempo empleado:
 
 $$
 v_{media} = \frac{x_{final} - x_{inicial}}{t} = \frac{x_f - x_0}{t} = \frac{x_f - x_i}{t}
-$$Cualquiera de las formas de escribirla es correcta. Hay que tener en cuenta que, como **los movimientos que vamos a estudiar siempre los vamos a tratar como si fueran en línea recta**, $s = x_f - x_i$. Si el movimiento no fuera en línea recta, esto no se podría hacer ([revisar la definición de trayectoria y desplazamiento]{.underline}).
+$$
+
+Cualquiera de las formas de escribirla es correcta. Hay que tener en cuenta que, como **los movimientos que vamos a estudiar siempre los vamos a tratar como si fueran en línea recta**, $s = x_f - x_i$. Si el movimiento no fuera en línea recta, esto no se podría hacer ([revisar la definición de trayectoria y desplazamiento]{.underline}).
 
 **Si** el móvil **no cambia su velocidad**, **ambas velocidades**, la media y la instantánea **serán iguales.**
 
@@ -87,7 +88,7 @@ Cualquiera de las formas de indicar las dos velocidades será correcta. Las **un
 
 ------------------------------------------------------------------------
 
-**2.-** Fernando alonso se encuentra en la posición número 10 en el gran premio de Australia de 2024. De que el semáforo se apaga y empieza la carrera hasta que acaba, **recorre** $306,124$**km**. Si **ha tardado** $2$**h** $40$**min** $28$**s** en realizar las 58 vueltas,
+**2.-** Fernando Alonso se encuentra en la posición número 10 en el gran premio de Australia de 2024. De que el semáforo se apaga y empieza la carrera hasta que acaba, **recorre** $306,124$**km**. Si **ha tardado** $2$**h** $40$**min** $28$**s** en realizar las 58 vueltas,
 
 a\) ¿Cuál ha sido su velocidad media? Utiliza unidades del **SI**.
 

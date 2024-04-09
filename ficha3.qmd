@@ -4,10 +4,9 @@ title: "Representación gráfica: Cómo crear tablas y gráficas , así como ent
 
 Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-------------------------------------------------------------------------
-Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io/fichas-fuerzas/](davidominguezroman.github.io/fichas-fuerzas/)
-
-------------------------------------------------------------------------
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io](https://davidominguezroman.github.io/fichas-fuerzas/) |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 En física **es fundamental** poder representar movimientos, posiciones, variaciones, etc., para poder entender cómo funciona todo. Primero, vamos a hablar sobre tablas. **Las tablas me permiten ordenar los parámetros que yo controlo** y escribir las medidas que realizo después. Por ejemplo, si cada segundo quiero medir la posición de un objeto, escribo primero el tiempo que aparece en el cronómetro y luego apunto la posición del objeto:
 

@@ -9,6 +9,7 @@ book:
     - index.qmd
     - intro.qmd
     - ficha1.qmd
+    - ficha1-2.qmd
     - ficha2.qmd
     - ficha3.qmd
     - ficha4.qmd
@@ -21,7 +22,10 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    lang: es
     mainfont: "Arial"
+    link-external-icon: true
+    link-external-newwindow: true
     fontsize: "12"
     monofont: "JetBrains Mono"
     lightbox: true

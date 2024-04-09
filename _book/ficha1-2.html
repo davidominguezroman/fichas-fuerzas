@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="David Domínguez Román">
 
-<title>Fuerzas: Fichas</title>
+<title>Fuerzas: Fichas – 2&nbsp; Muelles: Ley de Hooke</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
+<link href="./ficha2.html" rel="next">
+<link href="./ficha1.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -69,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -81,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introducción</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ficha1-2.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Muelles: Ley de Hooke</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -108,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introducción</span></a>
   </div>
 </li>
@@ -126,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ficha1-2.html" class="sidebar-item-text sidebar-link">
+  <a href="./ficha1-2.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Muelles: Ley de Hooke</span></span></a>
   </div>
 </li>
@@ -171,40 +203,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Tabla de contenidos</h2>
-   
-  <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Fuerzas: Fichas</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Muelles: Ley de Hooke</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor/a</div>
-    <div class="quarto-title-meta-contents">
-             <p>David Domínguez Román </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Fecha de publicación</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">1 de abril de 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -214,12 +228,94 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introducción" class="level1 unnumbered">
-<h1 class="unnumbered">Introducción</h1>
-<p>Esta página ha sido creada para albergar las diferentes fichas con ejercicios y teoría, así como animaciones para que investiguen y se manejen con los contenidos, que doy a un grupo de alumnos de 2º de la ESO, como parte de mi periodo de prácticas en un instituto.</p>
+<p>Nombre:______________________________________________________________________________</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en <a href="https://davidominguezroman.github.io/fichas-fuerzas/">davidominguezroman.github.io</a> |</td>
+</tr>
+</tbody>
+</table>
+<p>Si cogemos un muelle cualquiera y suspendemos una masa de uno de sus extremos (la llamaremos peso), dejando el otro fijo, este se deforma y se alarga una cantidad <span class="math inline">\(\Delta x\)</span>. Si suspendemos otra masa igual, el muelle se alargará el doble de lo que lo había hecho. El alargamiento de un muelle es directamente proporcional a la fuerza que se ha ejercido para alargarlo:</p>
+<p><span class="math display">\[
+F = K \cdot \Delta x,
+\]</span></p>
+<p>siendo</p>
+<p><span class="math display">\[
+\Delta x = x_{final} - x_{inicial}.
+\]</span></p>
+<p><span class="math inline">\(F\)</span> es la fuerza que se ejerce y su unidad es el Newton (N), <span class="math inline">\(K\)</span> es la constante elástica del muelle y sus unidades son Newton por metro (N/m) y <span class="math inline">\(x\)</span> el alargamiento, cuyas unidades son metros (m). Un muelle con una <span class="math inline">\(K\)</span> más alta se alargará menos que otro con una constante elástica más baja.</p>
+<p>A esta ecuación la llamamos <strong><em>Ley de Hooke</em></strong> y fue enunciada por <strong><em>Robert Hooke</em></strong>.</p>
+<p>Esta ecuación funciona <strong>tanto para muelles que se estiran como aquellos que se contraen</strong> (como el de la punta del boli). El único cambio es que, <strong>la fuerza será negativa</strong>(de signo contrario) porque <strong>el muelle mide menos al aplicar la fuerza que antes</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./pictures/Screen Shot 2017-06-01 at 12.46.01 PM.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="./pictures/Screen Shot 2017-06-01 at 12.46.01 PM.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="571"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./pictures/Untitled 1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="./pictures/Untitled 1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="286"></a></p>
+</figure>
+</div>
+<p>Para medir fuerzas y saber el peso de cualquier objeto, se utiliza un <strong>dinamómetro</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./pictures/dinamometro.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="./pictures/dinamometro.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="286"></a></p>
+</figure>
+</div>
+<hr>
+<p><strong>1.-</strong> Un muelle de constante elástica <span class="math inline">\(K=20N/m\)</span> tiene suspendida una masa <span class="math inline">\(m=100g\)</span>, la cual ejerce una fuerza sobre el muelle <span class="math inline">\(\text{F}=981 \text{ N}\)</span>. ¿Cuál será su alargamiento <span class="math inline">\(\Delta x\)</span>? ¿Si su longitud inicial era <span class="math inline">\(x_{inicial}=10 \text{ cm}\)</span>, cuál será la final? Utiliza unidades en el <strong>Sistema Internacional (metros, Newton, kilogramo, etc.)</strong>.</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>2.-</strong> ¿Un muelle con una longitud inicial <span class="math inline">\(x_{inicial}=20cm\)</span> se alarga hasta <span class="math inline">\(x_{final}=40cm\)</span> aplicando una fuerza <span class="math inline">\(F=200N\)</span>. Calcula la constante elástica del muelle, <span class="math inline">\(K\)</span>. Utiliza siempre unidades del <strong>Sistema Internacional</strong>.</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>3.-</strong> De un muelle sujeto por un extremo, se cuelga <strong>un cuerpo</strong> que ejerce <strong>una fuerza de</strong> <span class="math inline">\(15\)</span> N. El muelle se estira de forma que <strong>su elongación</strong> <span class="math inline">\(\Delta X = 4\)</span> cm.</p>
+<p>a) ¿Cuál es <strong>el valor de la constante</strong> <span class="math inline">\(K\)</span> del muelle?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>b) ¿Cuánto <strong>se estirará</strong> si se cuelga <strong>un peso que ejerce una fuerza</strong> <span class="math inline">\(F = 8,82\)</span> N?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>C) ¿ Y si se apoya el muelle <strong>en el suelo</strong> y <strong>se le aplica desde arriba</strong> una fuerza de <span class="math inline">\(F = -24,5\)</span> N? ¿Por qué la fuerza tiene <strong>signo negativo</strong>? <strong>Haz un dibujo</strong></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>4.-</strong> ¿Sirve la <strong><em>Ley de Hooke</em></strong> para muelles que <strong>se contraen</strong>? ¿Con qué <strong>habría que tener cuidado</strong>?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>5.-</strong> <strong>Explica con tus propias palabras</strong> qué significa que un muelle <strong>tenga una constante elástica</strong> <span class="math inline">\(K = 250\)</span> N/m.</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<hr>
+<hr>
+<p>Los muelles <strong>no se estiran hasta el infinito</strong>. Hay un punto en el que <strong>no regresan a su estado original</strong>. Ese punto se llama <strong>límite de elasticidad</strong>, y si la fuerza sigue aumentando, <strong>el muelle pierde su elasticidad</strong>.</p>
+<hr>
+<hr>
+<p><strong>6.-</strong> Un muelle <strong>se alarga</strong> <span class="math inline">\(\Delta X = 2\)</span>cm, cuando se cuelga de él <strong>un cuerpo de</strong> <span class="math inline">\(F= 50\)</span> N. Si su <strong>límite de elasticidad</strong> es <span class="math inline">\(300\)</span> N:</p>
+<p>a) ¿Cuál es su <strong>constante de elasticidad</strong>, <span class="math inline">\(K\)</span> ?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>b) ¿Qué <strong>elongación</strong> sufrirá <strong>en el límite</strong>?</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>7.-</strong> En los coches, los muelles se utilizan <strong>en los amortiguadores</strong>. Sin embargo, <strong>no es el único sitio en el que se usan</strong>. ¿Se te ocurre algún sitio más en el que se usen? <strong>Pista</strong>: hacen que uno esté muy cómodo…</p>
+<p><br> <br> <br></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -651,14 +747,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./ficha1.html" class="pagination-link" aria-label="Fuerzas: tipos de fuerzas y tipos de cuerpos">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fuerzas: tipos de fuerzas y tipos de cuerpos</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link" aria-label="Lista de animaciones">
-        <span class="nav-page-text">Lista de animaciones</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ficha2.html" class="pagination-link" aria-label="El movimiento: tipos de movimiento, velocidad y aceleración">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">El movimiento: tipos de movimiento, velocidad y aceleración</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

@@ -1,0 +1,139 @@
+---
+title: "Muelles: Ley de Hooke"
+---
+
+Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+|                                                                                                                                                                          |
+|------------------------------------------------------------------------|
+| Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io](https://davidominguezroman.github.io/fichas-fuerzas/) \| |
+
+Si cogemos un muelle cualquiera y suspendemos una masa de uno de sus extremos (la llamaremos peso), dejando el otro fijo, este se deforma y se alarga una cantidad $\Delta x$. Si suspendemos otra masa igual, el muelle se alargará el doble de lo que lo había hecho. El alargamiento de un muelle es directamente proporcional a la fuerza que se ha ejercido para alargarlo:
+
+$$
+F = K \cdot \Delta x,
+$$
+
+siendo
+
+$$
+\Delta x = x_{final} - x_{inicial}.
+$$
+
+$F$ es la fuerza que se ejerce y su unidad es el Newton (N), $K$ es la constante elástica del muelle y sus unidades son Newton por metro (N/m) y $x$ el alargamiento, cuyas unidades son metros (m). Un muelle con una $K$ más alta se alargará menos que otro con una constante elástica más baja.
+
+A esta ecuación la llamamos ***Ley de Hooke*** y fue enunciada por ***Robert Hooke***.
+
+Esta ecuación funciona **tanto para muelles que se estiran como aquellos que se contraen** (como el de la punta del boli). El único cambio es que, **la fuerza será negativa**(de signo contrario) porque **el muelle mide menos al aplicar la fuerza que antes**.
+
+![](./pictures/Screen%20Shot%202017-06-01%20at%2012.46.01%20PM.png){fig-align="center" width="571"}
+
+![](./pictures/Untitled%201.png){fig-align="center" width="286"}
+
+Para medir fuerzas y saber el peso de cualquier objeto, se utiliza un **dinamómetro**.
+
+![](./pictures/dinamometro.png){fig-align="center" width="286"}
+
+------------------------------------------------------------------------
+
+**1.-** Un muelle de constante elástica $K=20N/m$ tiene suspendida una masa $m=100g$, la cual ejerce una fuerza sobre el muelle $\text{F}=981 \text{ N}$. ¿Cuál será su alargamiento $\Delta x$? ¿Si su longitud inicial era $x_{inicial}=10 \text{ cm}$, cuál será la final? Utiliza unidades en el **Sistema Internacional (metros, Newton, kilogramo, etc.)**.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**2.-** ¿Un muelle con una longitud inicial $x_{inicial}=20cm$ se alarga hasta $x_{final}=40cm$ aplicando una fuerza $F=200N$. Calcula la constante elástica del muelle, $K$. Utiliza siempre unidades del **Sistema Internacional**.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**3.-** De un muelle sujeto por un extremo, se cuelga **un cuerpo** que ejerce **una fuerza de** $15$ N. El muelle se estira de forma que **su elongación** $\Delta X = 4$ cm.
+
+a\) ¿Cuál es **el valor de la constante** $K$ del muelle?
+
+<br>
+
+<br>
+
+<br>
+
+b\) ¿Cuánto **se estirará** si se cuelga **un peso que ejerce una fuerza** $F = 8,82$ N?
+
+<br>
+
+<br>
+
+<br>
+
+C\) ¿ Y si se apoya el muelle **en el suelo** y **se le aplica desde arriba** una fuerza de $F = -24,5$ N? ¿Por qué la fuerza tiene **signo negativo**? **Haz un dibujo**
+
+<br>
+
+<br>
+
+<br>
+
+**4.-** ¿Sirve la ***Ley de Hooke*** para muelles que **se contraen**? ¿Con qué **habría que tener cuidado**?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**5.-** **Explica con tus propias palabras** qué significa que un muelle **tenga una constante elástica** $K = 250$ N/m.
+
+<br>
+
+<br>
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Los muelles **no se estiran hasta el infinito**. Hay un punto en el que **no regresan a su estado original**. Ese punto se llama **límite de elasticidad**, y si la fuerza sigue aumentando, **el muelle pierde su elasticidad**.
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**6.-** Un muelle **se alarga** $\Delta X = 2$cm, cuando se cuelga de él **un cuerpo de** $F= 50$ N. Si su **límite de elasticidad** es $300$ N:
+
+a\) ¿Cuál es su **constante de elasticidad**, $K$ ?
+
+<br>
+
+<br>
+
+<br>
+
+b\) ¿Qué **elongación** sufrirá **en el límite**?
+
+<br>
+
+<br>
+
+<br>
+
+**7.-** En los coches, los muelles se utilizan **en los amortiguadores**. Sin embargo, **no es el único sitio en el que se usan**. ¿Se te ocurre algún sitio más en el que se usen? **Pista**: hacen que uno esté muy cómodo...
+
+<br>
+<br>
+<br>

@@ -4,10 +4,9 @@ title: "Palancas, Rozamiento y Leyes de Newton"
 
 Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-------------------------------------------------------------------------
-Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io/fichas-fuerzas/](davidominguezroman.github.io/fichas-fuerzas/)
-
-------------------------------------------------------------------------
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io](https://davidominguezroman.github.io/fichas-fuerzas/) |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Aunque las palancas las dais en Tecnología, vamos a hacer un breve recordatorio.
 
