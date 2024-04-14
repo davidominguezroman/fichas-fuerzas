@@ -1,0 +1,94 @@
+---
+title: "Muelles: Ley de Hooke (extra)"
+---
+
+Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Lee con detenimiento los enunciados**
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**1.-** Un muelle de constante elástica $K=40N/m$ tiene suspendida una masa, la cual ejerce una fuerza sobre el muelle $\text{F}=1962 \text{ N}$. ¿Cuál será su alargamiento $\Delta x$? ¿Si su longitud inicial era $x_{inicial}=1 \text{ m}$, cuál será la final? Utiliza unidades en el **Sistema Internacional (metros, Newton, kilogramo, etc.)**.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**2.-** ¿Un muelle con una longitud inicial $x_{inicial}=2 \text{m}$ se alarga hasta $x_{final}=4 \text{m}$ aplicando una fuerza $F=20000N$. Calcula la constante elástica del muelle, $K$. Utiliza siempre unidades del **Sistema Internacional**.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**3.-** **Explica con tus propias palabras** qué significa que un muelle **tenga una constante elástica** $K = 250$ N/m.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**4.-** En los coches, los muelles se utilizan **en los amortiguadores**. Sin embargo, **no es el único sitio en el que se usan**. ¿Se te ocurre algún sitio más en el que se usen? **Pista**: hacen que uno esté muy cómodo...
+
+<br>
+
+<br>
+
+<br>
+
+**5.-** A un muelle con una **constante elástica $K=33 \text{N/m}$** se le aplica una **fuerza $F=33 \text{N}$**. ¿Cuál es **su alargamiento**?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**6.-** **Dibuja** un muelle con una masa colgando y **representa las fuerzas** que actúan. **Recuerda que la masa sufre una fuerza debido a la gravedad y otra debida al muelle que tira de ella**.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+

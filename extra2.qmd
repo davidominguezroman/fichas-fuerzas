@@ -1,0 +1,127 @@
+---
+title: "El movimiento: tipos de movimiento, velocidad y aceleración (extra)"
+---
+
+Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Lee con detenimiento los enunciados**
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**1.-** El jefe de pista de Michael Schumacher recogió **la velocidad** registrada de su F1 a lo largo del arranque de la carrera:
+
+|                                  |                                                                                              |
+|-------------------------------------|-----------------------------------|
+| $$                               
+   t\_{inicial} =0 \text{s}        
+   $$                              | $$                                                                                           
+                                                                                                     t_{final} =8 \text{s}        
+                                                                                                   $$                             |
+| $$                               
+   v_{inicial} = 0 \text{m/s}      
+   $$                              | $$                                                                                           
+                                                                                                   v_{final} = 84 \text{m/s}      
+                                                                                                   $$                             |
+
+Calcula **la aceleración** de Michael Schumacher.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**2.-** Marcos ha registrado las velocidades a las que ha ido en dos viajes diferentes:
+
+|             |                                                 |                                                                                                  |                                                                                                                                                                   |                                                                                                                                                                                                                                                    |
+|---------------|---------------|---------------|---------------|---------------|
+| **Viaje 1** | $$                                              
+                                             10 \text{m/s}      
+                                             $$                 | $$                                                                                               
+                                                                                                                                                10 \text{m/s}      
+                                                                                                                                                $$                 | $$                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                    10 \text{m/s}      
+                                                                                                                                                                                                                                                                                                                    $$                 | $$                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         10 \text{m/s}      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         $$                 |
+| **Viaje 2** | $$                                              
+                                             20 \text{m/s}      
+                                             $$                 | $$                                                                                               
+                                                                                                                                                28 \text{m/s}      
+                                                                                                                                                $$                 | $$                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                    30 \text{m/s}      
+                                                                                                                                                                                                                                                                                                                    $$                 | $$                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         20 \text{m/s}      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         $$                 |
+
+Di qué viaje ha sido un **Movimiento Rectilíneo Uniforme (MRU)** y cuál un **Movimiento Rectilíneo Uniformemente Acelerado (MRUA)**.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**3.-** Un móvil ha recorrido $s=20 \text{km}$ **en un tiempo** $t=0,167 \text{h}$. Calcula su **velocidad media**.
+
+<br>
+
+<br>
+
+<br>
+
+**4.-** La distancia entre Burgos y Madrid es de $254$km. Si un autobús ha realizado ese trayecto en $3$h,
+
+a\) ¿cuál ha sido su velocidad media? Usa unidades del SI.
+
+<br>
+
+<br>
+
+<br>
+
+b\) Si en el camino realiza alguna parada, ¿crees que la velocidad media será la misma?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+**5.-** ¿Qué es **lo primero** que hay que hacer para definir un movimiento?
+
+<br>
+
+**6.-** Señala qué afirmaciones son ciertas y cuales son falsas. Indica brevemente por qué.
+
+-   El desplazamiento y el espacio recorrido siempre coinciden:
+
+<br>
+
+<br>
+
+-   El sistema de referencia y la posición son lo mismo:
+
+<br>
+
+<br>
+
+-   La velocidad media y la velocidad instantánea son siempre iguales:
+
+<br>
+
+<br>

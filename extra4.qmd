@@ -1,0 +1,64 @@
+---
+title: "Palancas, Rozamiento y Leyes de Newton (extra)"
+---
+
+Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Lee con detenimiento los enunciados**
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**1.-** Indica **de qué género** son las siguientes palancas:
+
+-   Una carretilla:
+
+-   Una caña de pescar:
+
+-   Unas tijeras:
+
+**3.-** ¿Qué cuerpos sufrirán más rozamiento?
+
+-   Una masa de 4kg sobre tierra o una masa de 8kg sobre tierra:
+
+<br>
+
+-   Una masa de 4kg sobre hielo o una masa de 4kg sobre cemento:
+
+<br>
+
+**4.-**¿Qué tendrá más rozamiento, una pista de hielo o una pared?
+
+<br>
+
+**5.-** Cuando vamos en el coche y cogemos una curva, parece que nos empujan hacia afuera de la curva. ¿Por qué pasa esto?
+
+<br>
+
+<br>
+
+<br>
+
+**6.-** La aceleración que sufre cualquier cuerpo que cae sobre la Tierra es $g_{Tierra}=9,8 \text{m}/\text{s}²$. Calcula cuál será el peso de una masa $m=30 \text{kg}$.
+
+<br>
+
+<br>
+
+<br>
+
+**7.-** Un coche es capaz de pasar de $100 \text{km/h}$ a $0 \text{km/h}$ recorriendo sólo $35\text{m}$. El coche sufre una aceleración $a= 11\text{m/}\text{s}²$. ¿Qué **fuerza ha sufrido** el conductor? **Recuerda: $F=m\cdot a$**.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+

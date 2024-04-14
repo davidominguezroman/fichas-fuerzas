@@ -213,7 +213,7 @@ plt.show()
 
 ------------------------------------------------------------------------
 
-**1.-** Se han registrado las diferentes velocidades de un coche durante $10\text{s}$:
+**3.-** Se han registrado las diferentes velocidades de un coche durante $10\text{s}$:
 
 |            |     |     |     |     |     |     |     |     |     |     |     |
 |------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -239,7 +239,7 @@ grid()
 **¿Cómo es el movimiento??**
 <br>
 
-**2.-** Marc Márquez se encuentra en el circuito de Portimao haciendo unas pruebas con su nueva moto. En $3\text{s}$ pasa de $0$ a $118,8\text{km}/\text{h}$. **Calcula la aceleración en** $\text{m}/\text{s}²$ (recuerda pasar la velocidad a m/s), **rellena la tabla** con los valores de la velocidad entre $t=0\text{s}$ y $t=5\text{s}$ y **dibuja la gráfica**:
+**4.-** Marc Márquez se encuentra en el circuito de Portimao haciendo unas pruebas con su nueva moto. En $3\text{s}$ pasa de $0$ a $118,8\text{km}/\text{h}$. **Calcula la aceleración en** $\text{m}/\text{s}²$ (recuerda pasar la velocidad a m/s), **rellena la tabla** con los valores de la velocidad entre $t=0\text{s}$ y $t=5\text{s}$ y **dibuja la gráfica**:
 
 <br>
 

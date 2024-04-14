@@ -1,0 +1,80 @@
+---
+title: "Representación gráfica: Cómo crear tablas y gráficas , así como entenderlas (extra)"
+---
+
+Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Lee con detenimiento los enunciados**
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**1.-** Las posiciones de un móvil vienen dadas por la siguiente tabla de datos. **Haz la representación gráfica** escribiendo también el nombre en los ejes. **¿Cómo es el movimiento?**
+
+|         |     |     |     |     |     |
+|---------|-----|-----|-----|-----|-----|
+| **t/s** | 0   | 2   | 4   | 6   | 8   |
+| **s/m** | 5   | 10  | 15  | 20  | 25  |
+
+```{R}
+# Crear una gráfica vacía
+plot(NA, NA, xlim = c(0, 10), ylim = c(0, 30), xlab = "", ylab = "", 
+     xaxt = "n", yaxt = "n", xaxs = "i", yaxs = "i")
+
+# Establecer los intervalos de los ejes x e y
+axis(1, at = seq(0, 10, by = 1))
+axis(2, at = seq(0, 30, by = 5))
+
+# Agregar rejilla
+grid()
+
+```
+
+**2.-** Un autobús con destino a Logroño sale de Santo Domingo de la Calzada con una velocidad de $1,5 \text{ km}/\text{min}$. La distancia entre Santo Domingo de la Calzada y Logroño es de $46,4\text{ km}$. **Calcula el tiempo que tarda en llegar en minutos** y dibuja la gráfica representando la **posición en km y el tiempo en minutos**. Calcula las posiciones cada 10 minutos y así será más fácil. **¿Cómo es el movimiento?**
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+|           |     |     |     |     |
+|-----------|-----|-----|-----|-----|
+| **t/min** |     |     |     |     |
+| **s/km**  |     |     |     |     |
+
+<br>
+
+**2.-** Se han registrado las diferentes velocidades de un coche durante $10\text{s}$:
+
+|            |     |     |     |     |     |     |     |     |     |     |     |
+|------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| **t(s)**   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| **v(m/s)** | 0   | 2   | 4   | 6   | 8   | 10  | 12  | 14  | 16  | 18  | 20  |
+
+Dibuja la gráfica v-t **escribiendo los nombres de los ejes y sus unidades**.
+
+```{r}
+# Crear una gráfica vacía con ejes especificados y rejilla
+plot(NA, NA, xlim = c(0, 11), ylim = c(0, 22), xlab = "", ylab = "",
+     xaxt = "n", yaxt = "n", xaxs = "i", yaxs = "i", main = "")
+
+# Establecer los intervalos de los ejes x e y
+axis(1, at = seq(0, 11, by = 1))
+axis(2, at = seq(0, 33, by = 2))
+
+# Agregar rejilla
+grid()
+
+```

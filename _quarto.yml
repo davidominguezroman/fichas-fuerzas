@@ -16,6 +16,11 @@ book:
     - ficha5.qmd
     - sitaprs1.qmd
     - sitaprs2.qmd
+    - extra1.qmd
+    - extra1-2.qmd
+    - extra2.qmd
+    - extra3.qmd
+    - extra4.qmd
 
 bibliography: references.bib
 
