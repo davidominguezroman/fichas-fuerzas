@@ -56,6 +56,22 @@ grid()
 
 <br>
 
+```{r}
+# Crear una gráfica vacía con ejes especificados y rejilla
+plot(NA, NA, xlim = c(0, 40), ylim = c(0, 50), xlab = "", ylab = "",
+     xaxt = "n", yaxt = "n", xaxs = "i", yaxs = "i", main = "")
+
+# Establecer los intervalos de los ejes x e y
+axis(1, at = seq(0, 40, by = 10))
+axis(2, at = seq(0, 50, by = 5))
+
+# Agregar rejilla
+grid()
+
+```
+
+<br>
+
 **2.-** Se han registrado las diferentes velocidades de un coche durante $10\text{s}$:
 
 |            |     |     |     |     |     |     |     |     |     |     |     |
