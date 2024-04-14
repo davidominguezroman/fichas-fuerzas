@@ -90,9 +90,9 @@ f\) ¿Por qué pasa esto?
 
 ------------------------------------------------------------------------
 
-# Energía eléctrica {.unnumbered}
+# Fuerza eléctrica {.unnumbered}
 
-La energía eléctrica es otra de las fuerzas elementales de la naturaleza. Esta fuerza se debe a las posibles diferencias de carga que pueda tener la materia. La materia generalmente es neutra pero, debido a efectos que veremos después, puede adquirir algún tipo de carga. Un cuerpo puede tener:
+La fuerza eléctrica es otra de las fuerzas elementales de la naturaleza. Esta fuerza se debe a las posibles diferencias de carga que pueda tener la materia. La materia generalmente es neutra pero, debido a efectos que veremos después, puede adquirir algún tipo de carga. Un cuerpo puede tener:
 
 -   **Carga positiva**: si tiene **más** cargas positivas que negativas. –\> Los **cationes**, por ejemplo.
 -   **Carga neutra**: si tiene **las mismas** cargas positivas que negativas.
