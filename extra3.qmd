@@ -54,8 +54,6 @@ grid()
 | **t/min** |     |     |     |     |
 | **s/km**  |     |     |     |     |
 
-<br>
-
 ```{r}
 # Crear una gráfica vacía con ejes especificados y rejilla
 plot(NA, NA, xlim = c(0, 40), ylim = c(0, 50), xlab = "", ylab = "",
@@ -72,7 +70,7 @@ grid()
 
 <br>
 
-**2.-** Se han registrado las diferentes velocidades de un coche durante $10\text{s}$:
+**3.-** Se han registrado las diferentes velocidades de un coche durante $10\text{s}$:
 
 |            |     |     |     |     |     |     |     |     |     |     |     |
 |------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
