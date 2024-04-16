@@ -8,7 +8,7 @@ Nombre:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 | Si quieres ver estas hojas y todas las animaciones utilizadas en clase, entra en [davidominguezroman.github.io](https://davidominguezroman.github.io/fichas-fuerzas/) |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-En esta actividad de laboratorio vamos a ver cómo funcionan las algunas de las fuerzas de la naturaleza, de forma fácil y sencilla, mediante experimentos muy sencillos. Al mismo tiempo tendréis que rellenar esta ficha, que será como una especie de "informe de laboratorio". En ella se os harán preguntas sobre qué está pasando en cada experimento y, en algún caso, se os pedirá algún cálculo.
+Hoy vamos a ser auténticos científicos pioneros. Seguiremos los pasos de los científicos observando las diferentes fuerzas fundamentales. Realizaremos experimentos sencillos para observar cómo se comportan y de qué dependen. Alguno de estos experimentos podéis hacerlos en casa, siempre bajo la supervisión de una persona adulta. Al mismo tiempo, tendréis que rellenar esta ficha, que será como una especie de "informe de laboratorio". En ella se os harán preguntas sobre qué está pasando en cada experimento y se incluirá la teoría sobre las fuerzas que vamos a ver.
 
 ------------------------------------------------------------------------
 
@@ -38,17 +38,9 @@ Llegados a este punto, es importante diferenciar entre **masa** y **peso**: - **
 
 ------------------------------------------------------------------------
 
-**Experimento 1**: En este experimento vamos a ver cómo la fuerza de la gravedad afecta a un carrito sobre un plano. Para ello, variaremos la masa del carrito y el ángulo del plano. En nuestro caso, el plano representa la vertical, así que es como si lo estuviéramos viendo caer con la cabeza girada. Con la variación del ángulo del plano estamos "simulando" diferentes gravedades: solo una parte de la fuerza de la gravedad, la que lo va a empujar a lo largo del plano, va a impulsar el carrito. De esta forma, limitamos cuánto de la gravedad terrestre empuja al carrito.
+**Experimento 1**: En este experimento vamos a ver cómo la fuerza de la gravedad afecta a un cuerpo y cómo esta fuerza depende linealmente de la masa. Para ello, vamos a hacer uso de un dinamómetro, un instrumento diseñado para medir fuerzas. Antes de nada tendremos que asegurarnos de que está bien calibrado y luego veremos cómo cambia la medida de la fuerza al aumentar o reducir la masa que le colguemos.
 
-a\) Cuando el plano está horizontal el carrito no se mueve. ¿Por qué?
-
-<br>
-
-<br>
-
-<br>
-
-b\) Si aumentamos la masa con el plano horizontal, ¿cambia algo? ¿Por qué?
+a\) ¿El dinamómetro marca 0N cuando lo dejamos sin ninguna masa? Si no es así, qué tendremos que hacer?
 
 <br>
 
@@ -56,9 +48,7 @@ b\) Si aumentamos la masa con el plano horizontal, ¿cambia algo? ¿Por qué?
 
 <br>
 
-<br>
-
-c\) Sin añadir masas aumentamos el ángulo de inclinación. ¿Qué ocurre?
+b\) Suspendemos un soporte de 10g para colocar unos discos con una masa determinada. Cuanta fuerza registra el dinamómetro?
 
 <br>
 
@@ -66,15 +56,21 @@ c\) Sin añadir masas aumentamos el ángulo de inclinación. ¿Qué ocurre?
 
 <br>
 
-d\) Si aumentamos la masa del carro, ¿cae más rápido?
+<br>
+
+c\) Añadimos otra masa de 10g al soporte. ¿Qué fuerza marca el dinamómetro?
 
 <br>
 
-e\) Si aumentamos el ángulo, ¿cae más rápido?
+<br>
 
 <br>
 
-f\) ¿Por qué pasa esto?
+d\) Ahora colocamos una masa de 50g, lo que da un total de 60g. ¿Por cuánto se ha multiplicado la fuerza en comparación con el apartado a?
+
+<br>
+
+e\) ¿Crees que podremos medir cualquier cuerpo y obtener su masa con el dinamómetro?
 
 <br>
 
@@ -238,7 +234,7 @@ c\) ¿Por qué ocurre esto?
 
 Aunque los tratemos por separado, la electricidad y el magnetismo están muy relacionados. El **electromagnetismo** estudia la relación que existe entre los dos fenómenos.
 
-## Experiencia de Faraday
+## Experiencia de Faraday {.unnumbered}
 
 ***Michael Faraday*** experimentó cómo, al pasar un imán a través de un hilo enrollado en forma de bobina, se producía una corriente eléctrica. Este experimento sentó las bases de la **generación de electricidad** que conocemos. Casi todas las formas de energía (carbón, petróleo, gas, nuclear, eólica, hidráulica, etc) utilizan unos dispositivos llamados **alternadores**: estos convierten el movimiento rotatorio en electricidad utilizando este principio, que llamaremos **inducción**.
 
