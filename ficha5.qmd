@@ -82,6 +82,14 @@ e\) ¿Crees que podremos medir cualquier cuerpo y obtener su masa con el dinamó
 
 <br>
 
+<br>
+
+<br>
+
+<br>
+
+
+
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -120,27 +128,60 @@ La fuerza eléctrica tiene las siguientes características:
 
 ------------------------------------------------------------------------
 
-**Experimento 2**: En este experimento vamos a utilizar una varilla de cristal, que frotaremos con lana o algodón, e intentaremos atraer trocitos de papel.
+**Experimento 2**: En este experimento vamos a utilizar una varilla de cristal, unos trozos de pieles y un aparato llamado electroscopio. El electroscopio es un aparato muy sencillo que permite visualizar cómo un material adquiere carga eléctrica y cómo esas cargas se repelen. Primero, acercaremos y tocaremos la varilla contra la parte superior del electroscopio. Después haremos lo mismo, pero antes frotaremos la varilla con alguna piel.
 
-a\) Al frotar la varilla con la tela, ¿se nota que pase algo?
-
-<br>
-
-b\) Al acercar la varilla frotada a unos trocitos de papel, estos se ven atraídos por la varilla. ¿Por qué ocurre esto?
+a\) ¿Qué ocurre al acercar la varilla sin haberla frotado?
 
 <br>
 
-<br>
+b\) ¿Y al tocar la parte superior?
 
 <br>
 
 <br>
 
-c\) ¿Qué tipos de electrización hemos visto?
+<br>
+
+<br>
+
+c\) Ahora, después de frotar la varilla, la volvemos a acercar. ¿Qué ocurre? ¿Por qué?
 
 <br>
 
 <br>
+
+<br>
+
+<br>
+
+d\) Y al tocar la varilla con la parte superior, ¿qué ocurre? ¿es el mismo método de electrización?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+e\) Al cambiar el tipo de piel con la que frotamos la varilla, ¿ocurre algo distinto?
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+f\) ¿Qué métodos de electrización hemos visto?
+
+<br>
+
+<br>
+
+<br>
+
 
 **Experimento 3**: En este experimento vamos a intentar atraer un chorrito de agua del grifo con un globo. Parece una tarea imposible, pero si el chorro de agua es muy pequeño, podremos verlo. Para que esto funcione es necesario frotar con lana o algodón un globo hinchado.
 
