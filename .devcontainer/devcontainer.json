@@ -8,7 +8,7 @@
             "installChromium": true
         },
         "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-            "packages": "libudunits2-dev,libxtst6,libxt6,libmagick++-dev r-cran-reticulate jupyter ttf-mscorefont-installer"
+            "packages": "libudunits2-dev,libxtst6,libxt6,libmagick++-dev, r-cran-reticulate, jupyter, ttf-mscorefont-installer"
         },
         "ghcr.io/rocker-org/devcontainer-features/r-packages:1": {
             "packages": "github::rstudio/renv,tidyverse,here,httpgd"
