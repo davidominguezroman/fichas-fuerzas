@@ -1,0 +1,20 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+      "version": "prerelease",
+      "installTinyTex": true,
+      "installChromium": true
+    },
+    "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
+      "installRMarkdown": true,
+      "installJupyterLab": true
+    },
+    "ghcr.io/wxw-matt/devcontainer-features/apt:0": {
+      "pckages": "ttf-mscorefonts-installer"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/rstudio-server:0": {
+      "version": "daily"
+    }
+  }
+}
