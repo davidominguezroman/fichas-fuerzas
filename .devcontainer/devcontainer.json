@@ -11,7 +11,7 @@
       "installJupyterLab": true
     },
     "ghcr.io/wxw-matt/devcontainer-features/apt:0": {
-      "pckages": "ttf-mscorefonts-installer"
+      "pckages": "ttf-mscorefonts-installer r-cran-reticulate"
     },
   }
 }
