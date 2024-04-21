@@ -6,12 +6,15 @@
       "installTinyTex": true,
       "installChromium": true
     },
-    "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
+    "ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
+      "vscodeRSupport": "full",
+      "installREnv": true,
       "installRMarkdown": true,
-      "installJupyterLab": true
+      "installJupyterlab": true
     },
+    "ghcr.io/rocker-org/devcontainer-features/rstudio-server:0": {},
     "ghcr.io/wxw-matt/devcontainer-features/apt:0": {
-      "pckages": "ttf-mscorefonts-installer r-cran-reticulate"
+      "pckages": "ttf-mscorefonts-installer r-cran-reticulate r-base r-base-dev"
     },
   }
 }
