@@ -13,8 +13,5 @@
     "ghcr.io/wxw-matt/devcontainer-features/apt:0": {
       "pckages": "ttf-mscorefonts-installer"
     },
-    "ghcr.io/rocker-org/devcontainer-features/rstudio-server:0": {
-      "version": "daily"
-    }
   }
 }
